@@ -1,15 +1,15 @@
 {
     "plex": {
-        "base_url": "http://192.168.86.21:32400/",
-        "token": "P4DN9WyJ3KZm3WsfD235",
+        "base_url": "http://localhost:32400",
+        "token": "your-plex-token-here",
         "library_name": "Music"
     },
     "spotify": {
-        "client_id": "a0b939ee1cef4ecb8fb577b56e6ff5ec",
-        "client_secret": "ccd78f95e46442e5a4e429b5e58fb81c"
+        "client_id": "your-spotify-client-id-here",
+        "client_secret": "your-spotify-client-secret-here"
     },
     "anthropic": {
-        "api_key": "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"
+        "api_key": "your-claude-api-key-here"
     },
     "matching": {
         "similarity_threshold": 0.85,
