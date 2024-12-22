@@ -1,0 +1,152 @@
+2024-12-21 12:26:12,168 - PlexMusicMatcher - INFO - Loading configuration...
+2024-12-21 12:26:12,168 - PlexMusicMatcher - INFO - Configuration loaded successfully!
+2024-12-21 12:26:12,168 - PlexMusicMatcher - INFO - Initializing Spotify connection...
+2024-12-21 12:26:12,169 - PlexMusicMatcher - INFO - Successfully connected to Spotify API
+2024-12-21 12:26:12,444 - PlexMusicMatcher - INFO - Initializing Plex connection...
+2024-12-21 12:26:12,444 - PlexMusicMatcher - INFO - Connecting to Plex server at http://192.168.86.21:32400/...
+2024-12-21 12:26:12,449 - PlexMusicMatcher - INFO - Successfully connected to Plex server: ThomasArchives
+2024-12-21 12:26:12,453 - PlexMusicMatcher - INFO - Successfully connected to music library: Music
+2024-12-21 12:26:12,453 - PlexMusicMatcher - INFO - Plex Server Version: 1.41.3.9292-bc7397402
+2024-12-21 12:26:12,490 - PlexMusicMatcher - INFO - Successfully accessed music library
+2024-12-21 12:26:12,491 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 12:26:12,491 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 12:26:16,980 - PlexMusicMatcher - INFO - Scanning 4592 total artists...
+2024-12-21 12:26:41,767 - PlexMusicMatcher - INFO - 
+Found 520 unmatched artists
+2024-12-21 12:26:41,781 - PlexMusicMatcher - INFO - Found 520 unmatched artists
+2024-12-21 12:26:41,781 - PlexMusicMatcher - INFO - Starting artist matching process...
+2024-12-21 12:27:12,574 - PlexMusicMatcher - WARNING - Matching timed out for artist: Alkmeister
+2024-12-21 12:27:42,601 - PlexMusicMatcher - WARNING - Matching timed out for artist: Augan
+2024-12-21 12:28:12,562 - PlexMusicMatcher - WARNING - Matching timed out for artist: Camila Orantes
+2024-12-21 12:28:42,678 - PlexMusicMatcher - WARNING - Matching timed out for artist: David Krutten
+2024-12-21 12:29:12,576 - PlexMusicMatcher - WARNING - Matching timed out for artist: DJ ZeeZee
+2024-12-21 12:29:42,560 - PlexMusicMatcher - WARNING - Matching timed out for artist: Erika Ascenzo
+2024-12-21 12:30:12,568 - PlexMusicMatcher - WARNING - Matching timed out for artist: Giveon
+2024-12-21 12:30:42,553 - PlexMusicMatcher - WARNING - Matching timed out for artist: Haza
+2024-12-21 12:31:12,650 - PlexMusicMatcher - WARNING - Matching timed out for artist: JamesOnThaTrack
+2024-12-21 12:31:42,647 - PlexMusicMatcher - WARNING - Matching timed out for artist: Keenan Back & Liam Back
+2024-12-21 12:32:12,580 - PlexMusicMatcher - WARNING - Matching timed out for artist: Leisureville
+2024-12-21 12:32:42,594 - PlexMusicMatcher - WARNING - Matching timed out for artist: Mahachii
+2024-12-21 12:33:12,607 - PlexMusicMatcher - WARNING - Matching timed out for artist: Mike Forrest Flynn
+2024-12-21 12:33:42,553 - PlexMusicMatcher - WARNING - Matching timed out for artist: neebs.
+2024-12-21 12:34:12,593 - PlexMusicMatcher - WARNING - Matching timed out for artist: Outflux
+2024-12-21 12:34:42,520 - PlexMusicMatcher - WARNING - Matching timed out for artist: Ronin Halloway
+2024-12-21 12:35:12,615 - PlexMusicMatcher - WARNING - Matching timed out for artist: Sleepy Night Music
+2024-12-21 12:35:42,571 - PlexMusicMatcher - WARNING - Matching timed out for artist: TAKTY-E
+2024-12-21 12:36:12,558 - PlexMusicMatcher - WARNING - Matching timed out for artist: TYNAN, G-REX
+2024-12-21 12:36:42,570 - PlexMusicMatcher - WARNING - Matching timed out for artist: Yoo Woon
+2024-12-21 12:36:47,855 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 12:36:47,855 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 12:36:47,855 - PlexMusicMatcher - INFO - Automatic matches: 425 (81.7%)
+2024-12-21 12:36:47,856 - PlexMusicMatcher - INFO - Needs review: 22 (4.2%)
+2024-12-21 12:36:47,856 - PlexMusicMatcher - INFO - No matches found: 73 (14.0%)
+2024-12-21 12:36:47,856 - PlexMusicMatcher - INFO - 
+Automatic Matches:
+2024-12-21 12:36:47,856 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 12:36:47,856 - PlexMusicMatcher - INFO - 
+Match 1:
+2024-12-21 12:36:47,856 - PlexMusicMatcher - INFO - Plex Artist: 5hags
+Spotify Match: 5hags
+Confidence: 100.00%
+Popularity: 4/100
+2024-12-21 12:36:47,857 - PlexMusicMatcher - INFO - 
+Match 2:
+2024-12-21 12:36:47,857 - PlexMusicMatcher - INFO - Plex Artist: 7-Pm
+Spotify Match: 7-Pm
+Confidence: 100.00%
+Popularity: 5/100
+2024-12-21 12:36:47,857 - PlexMusicMatcher - INFO - 
+Match 3:
+2024-12-21 12:36:47,857 - PlexMusicMatcher - INFO - Plex Artist: 7XL
+Spotify Match: 7XL
+Confidence: 100.00%
+Popularity: 4/100
+2024-12-21 12:36:47,858 - PlexMusicMatcher - INFO - 
+Match 4:
+2024-12-21 12:36:47,858 - PlexMusicMatcher - INFO - Plex Artist: 98.Morelo
+Spotify Match: 98.Morelo
+Confidence: 100.00%
+Popularity: 0/100
+2024-12-21 12:36:47,858 - PlexMusicMatcher - INFO - 
+Match 5:
+2024-12-21 12:36:47,858 - PlexMusicMatcher - INFO - Plex Artist: Aaron Doh
+Spotify Match: Aaron Doh
+Confidence: 100.00%
+Popularity: 17/100
+2024-12-21 12:36:47,858 - PlexMusicMatcher - INFO - 
+Matches Needing Review:
+2024-12-21 12:36:47,859 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 12:36:47,859 - PlexMusicMatcher - INFO - 
+Potential Match 1:
+2024-12-21 12:36:47,859 - PlexMusicMatcher - INFO - Plex Artist: Alemu
+Spotify Match: Alemán
+Confidence: 90.43%
+Popularity: 77/100
+Genres: mexican hip hop, trap mexicano
+
+Alternative matches:
+  1. Alemi Bustos (Popularity: 59/100)
+  2. Alemu Aga (Popularity: 21/100)
+2024-12-21 12:36:47,859 - PlexMusicMatcher - INFO - 
+Potential Match 2:
+2024-12-21 12:36:47,859 - PlexMusicMatcher - INFO - Plex Artist: Ari MT
+Spotify Match: Ari Mason
+Confidence: 80.67%
+Popularity: 40/100
+Genres: industrial pop
+
+Alternative matches:
+  1. Ari Notartomaso (Popularity: 36/100)
+  2. Ari Mindful (Popularity: 29/100)
+2024-12-21 12:36:47,860 - PlexMusicMatcher - INFO - 
+Potential Match 3:
+2024-12-21 12:36:47,860 - PlexMusicMatcher - INFO - Plex Artist: Calvin King
+Spotify Match: Calvin Kingston
+Confidence: 92.82%
+Popularity: 7/100
+
+Alternative matches:
+  1. Calvin Harris (Popularity: 86/100)
+  2. Calvin King (Popularity: 10/100)
+2024-12-21 12:36:47,861 - PlexMusicMatcher - INFO - 
+Potential Match 4:
+2024-12-21 12:36:47,861 - PlexMusicMatcher - INFO - Plex Artist: Carla Mauri
+Spotify Match: Carla Morrison
+Confidence: 89.30%
+Popularity: 73/100
+Genres: cantautora mexicana, mexican pop
+
+Alternative matches:
+  1. Carla Mauri (Popularity: 31/100)
+  2. Carl Maria von Weber (Popularity: 51/100)
+2024-12-21 12:36:47,861 - PlexMusicMatcher - INFO - 
+Potential Match 5:
+2024-12-21 12:36:47,861 - PlexMusicMatcher - INFO - Plex Artist: Curci and Mick Jenkins
+Spotify Match: Mick Jenkins
+Confidence: 86.39%
+Popularity: 58/100
+Genres: alternative hip hop, alternative r&b, chicago rap
+
+Alternative matches:
+  1. Curci (Popularity: 28/100)
+  2. Mick Jenkins (Popularity: 9/100)
+2024-12-21 12:36:47,862 - PlexMusicMatcher - INFO - 
+No Matches Found For:
+2024-12-21 12:36:47,862 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 12:36:47,862 - PlexMusicMatcher - INFO - 1. Acedox
+2024-12-21 12:36:47,862 - PlexMusicMatcher - INFO - 2. Adrian Rooz
+2024-12-21 12:36:47,862 - PlexMusicMatcher - INFO - 3. Alkmeister
+2024-12-21 12:36:47,862 - PlexMusicMatcher - INFO - 4. Alphabet Kids
+2024-12-21 12:36:47,863 - PlexMusicMatcher - INFO - 5. AmusicalSomebody
+2024-12-21 12:36:47,863 - PlexMusicMatcher - INFO - 
+Processing Summary:
+2024-12-21 12:36:47,863 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 12:36:47,863 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 12:36:47,863 - PlexMusicMatcher - INFO - Automatic matches: 425 (81.7%)
+2024-12-21 12:36:47,863 - PlexMusicMatcher - INFO - Needs review: 22 (4.2%)
+2024-12-21 12:36:47,863 - PlexMusicMatcher - INFO - No matches found: 73 (14.0%)
+2024-12-21 12:36:47,864 - PlexMusicMatcher - INFO - 
+Would you like to:
+2024-12-21 12:36:47,864 - PlexMusicMatcher - INFO - 1. Review potential matches
+2024-12-21 12:36:47,864 - PlexMusicMatcher - INFO - 2. Save results for later
+2024-12-21 12:36:47,864 - PlexMusicMatcher - INFO - 3. Exit

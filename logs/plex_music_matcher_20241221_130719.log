@@ -1,0 +1,198 @@
+2024-12-21 13:07:19,210 - PlexMusicMatcher - INFO - Loading configuration...
+2024-12-21 13:07:19,211 - PlexMusicMatcher - INFO - Configuration loaded successfully!
+2024-12-21 13:07:19,211 - PlexMusicMatcher - INFO - Initializing Spotify connection...
+2024-12-21 13:07:19,211 - PlexMusicMatcher - INFO - Successfully connected to Spotify API
+2024-12-21 13:07:19,544 - PlexMusicMatcher - INFO - Initializing Plex connection...
+2024-12-21 13:07:19,544 - PlexMusicMatcher - INFO - Connecting to Plex server at http://192.168.86.21:32400/...
+2024-12-21 13:07:19,550 - PlexMusicMatcher - INFO - Successfully connected to Plex server: ThomasArchives
+2024-12-21 13:07:19,555 - PlexMusicMatcher - INFO - Successfully connected to music library: Music
+2024-12-21 13:07:19,556 - PlexMusicMatcher - INFO - Plex Server Version: 1.41.3.9292-bc7397402
+2024-12-21 13:07:19,926 - PlexMusicMatcher - INFO - Successfully accessed music library
+2024-12-21 13:07:19,927 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 13:07:19,927 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 13:07:25,096 - PlexMusicMatcher - INFO - Scanning 4592 total artists...
+2024-12-21 13:07:57,130 - PlexMusicMatcher - INFO - 
+Found 520 unmatched artists
+2024-12-21 13:07:57,144 - PlexMusicMatcher - INFO - Found 520 unmatched artists
+2024-12-21 13:07:57,144 - PlexMusicMatcher - INFO - Starting artist matching process...
+2024-12-21 13:08:27,318 - PlexMusicMatcher - WARNING - Matching timed out for artist: Alex Lambrino (took 22.3s, threshold: 15s)
+2024-12-21 13:08:27,319 - PlexMusicMatcher - INFO - Got result despite timeout for: Alex Lambrino
+2024-12-21 13:08:57,358 - PlexMusicMatcher - WARNING - Matching timed out for artist: Arup Das (took 22.7s, threshold: 15s)
+2024-12-21 13:08:57,359 - PlexMusicMatcher - INFO - Got result despite timeout for: Arup Das
+2024-12-21 13:09:27,317 - PlexMusicMatcher - WARNING - Matching timed out for artist: Brray, Anuel AA, Chencho Corleone, JHAYCO, Ryan Castro (took 22.5s, threshold: 15s)
+2024-12-21 13:09:27,318 - PlexMusicMatcher - INFO - Got result despite timeout for: Brray, Anuel AA, Chencho Corleone, JHAYCO, Ryan Castro
+2024-12-21 13:09:57,384 - PlexMusicMatcher - WARNING - Matching timed out for artist: Cyn Tremeau (took 21.8s, threshold: 15s)
+2024-12-21 13:09:57,384 - PlexMusicMatcher - INFO - Got result despite timeout for: Cyn Tremeau
+2024-12-21 13:10:27,370 - PlexMusicMatcher - WARNING - Matching timed out for artist: Dillon Francis & TV Noise (took 22.3s, threshold: 15s)
+2024-12-21 13:10:27,370 - PlexMusicMatcher - INFO - Got result despite timeout for: Dillon Francis & TV Noise
+2024-12-21 13:10:57,540 - PlexMusicMatcher - WARNING - Matching timed out for artist: Dub Phizix, Skittles (took 22.5s, threshold: 15s)
+2024-12-21 13:10:57,541 - PlexMusicMatcher - INFO - Got result despite timeout for: Dub Phizix, Skittles
+2024-12-21 13:11:27,446 - PlexMusicMatcher - WARNING - Matching timed out for artist: Fractal Designs (took 21.9s, threshold: 15s)
+2024-12-21 13:11:27,446 - PlexMusicMatcher - INFO - Got result despite timeout for: Fractal Designs
+2024-12-21 13:11:57,366 - PlexMusicMatcher - WARNING - Matching timed out for artist: Guillaume Defradat (took 21.9s, threshold: 15s)
+2024-12-21 13:11:57,366 - PlexMusicMatcher - INFO - Got result despite timeout for: Guillaume Defradat
+2024-12-21 13:12:27,378 - PlexMusicMatcher - WARNING - Matching timed out for artist: Indeb (took 20.9s, threshold: 15s)
+2024-12-21 13:12:27,378 - PlexMusicMatcher - INFO - Got result despite timeout for: Indeb
+2024-12-21 13:12:57,426 - PlexMusicMatcher - WARNING - Matching timed out for artist: JuliáN ÁVila (took 21.8s, threshold: 15s)
+2024-12-21 13:12:57,427 - PlexMusicMatcher - INFO - Got result despite timeout for: JuliáN ÁVila
+2024-12-21 13:13:27,727 - PlexMusicMatcher - WARNING - Matching timed out for artist: L*o*J (took 22.4s, threshold: 15s)
+2024-12-21 13:13:27,727 - PlexMusicMatcher - INFO - Got result despite timeout for: L*o*J
+2024-12-21 13:13:57,346 - PlexMusicMatcher - WARNING - Matching timed out for artist: LudjixBoyz (took 21.7s, threshold: 15s)
+2024-12-21 13:13:57,346 - PlexMusicMatcher - INFO - Got result despite timeout for: LudjixBoyz
+2024-12-21 13:14:27,405 - PlexMusicMatcher - WARNING - Matching timed out for artist: Meditation Loopable Sounds (took 21.8s, threshold: 15s)
+2024-12-21 13:14:27,405 - PlexMusicMatcher - INFO - Got result despite timeout for: Meditation Loopable Sounds
+2024-12-21 13:14:57,413 - PlexMusicMatcher - WARNING - Matching timed out for artist: Mxverick (took 22.3s, threshold: 15s)
+2024-12-21 13:14:57,413 - PlexMusicMatcher - INFO - Got result despite timeout for: Mxverick
+2024-12-21 13:15:27,381 - PlexMusicMatcher - WARNING - Matching timed out for artist: Odecityfire (took 21.5s, threshold: 15s)
+2024-12-21 13:15:27,381 - PlexMusicMatcher - INFO - Got result despite timeout for: Odecityfire
+2024-12-21 13:15:57,409 - PlexMusicMatcher - WARNING - Matching timed out for artist: Pr!ce (took 21.9s, threshold: 15s)
+2024-12-21 13:15:57,410 - PlexMusicMatcher - INFO - Got result despite timeout for: Pr!ce
+2024-12-21 13:16:27,485 - PlexMusicMatcher - WARNING - Matching timed out for artist: She Has A Cold Cold Heart (took 22.6s, threshold: 15s)
+2024-12-21 13:16:27,486 - PlexMusicMatcher - INFO - Got result despite timeout for: She Has A Cold Cold Heart
+2024-12-21 13:16:57,377 - PlexMusicMatcher - WARNING - Matching timed out for artist: Static Garden (took 21.5s, threshold: 15s)
+2024-12-21 13:16:57,377 - PlexMusicMatcher - INFO - Got result despite timeout for: Static Garden
+2024-12-21 13:17:27,353 - PlexMusicMatcher - WARNING - Matching timed out for artist: Tiki Taka (took 22.1s, threshold: 15s)
+2024-12-21 13:17:27,353 - PlexMusicMatcher - INFO - Got result despite timeout for: Tiki Taka
+2024-12-21 13:17:57,392 - PlexMusicMatcher - WARNING - Matching timed out for artist: Will Butler vs The Knocks (took 22.0s, threshold: 15s)
+2024-12-21 13:17:57,393 - PlexMusicMatcher - INFO - Got result despite timeout for: Will Butler vs The Knocks
+2024-12-21 13:18:27,336 - PlexMusicMatcher - WARNING - Matching timed out for artist: ХЛЕБ (took 22.8s, threshold: 15s)
+2024-12-21 13:18:27,336 - PlexMusicMatcher - INFO - Got result despite timeout for: ХЛЕБ
+2024-12-21 13:18:29,262 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 13:18:29,262 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 13:18:29,262 - PlexMusicMatcher - INFO - Automatic matches: 513 (98.7%)
+2024-12-21 13:18:29,263 - PlexMusicMatcher - INFO - Needs review: 6 (1.2%)
+2024-12-21 13:18:29,263 - PlexMusicMatcher - INFO - No matches found: 1 (0.2%)
+2024-12-21 13:18:29,263 - PlexMusicMatcher - INFO - 
+Automatic Matches:
+2024-12-21 13:18:29,263 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 13:18:29,263 - PlexMusicMatcher - INFO - 
+Match 1:
+2024-12-21 13:18:29,263 - PlexMusicMatcher - INFO - Plex Artist: 5hags
+Spotify Match: 5hags
+Confidence: 100.00%
+Match Type: exact
+Popularity: 4/100
+2024-12-21 13:18:29,264 - PlexMusicMatcher - INFO - 
+Match 2:
+2024-12-21 13:18:29,264 - PlexMusicMatcher - INFO - Plex Artist: 7-Pm
+Spotify Match: 7-Pm
+Confidence: 100.00%
+Match Type: exact
+Popularity: 5/100
+2024-12-21 13:18:29,264 - PlexMusicMatcher - INFO - 
+Match 3:
+2024-12-21 13:18:29,265 - PlexMusicMatcher - INFO - Plex Artist: 7XL
+Spotify Match: 7XL
+Confidence: 100.00%
+Match Type: exact
+Popularity: 4/100
+
+Alternative matches:
+  1. 7XL (Popularity: 0/100)
+2024-12-21 13:18:29,265 - PlexMusicMatcher - INFO - 
+Match 4:
+2024-12-21 13:18:29,265 - PlexMusicMatcher - INFO - Plex Artist: 98.Morelo
+Spotify Match: 98.Morelo
+Confidence: 100.00%
+Match Type: exact
+Popularity: 0/100
+
+Alternative matches:
+  1. 98.morelo (Popularity: 11/100)
+2024-12-21 13:18:29,266 - PlexMusicMatcher - INFO - 
+Match 5:
+2024-12-21 13:18:29,266 - PlexMusicMatcher - INFO - Plex Artist: Aaron Doh
+Spotify Match: Aaron Doh
+Confidence: 100.00%
+Match Type: exact
+Popularity: 17/100
+2024-12-21 13:18:29,266 - PlexMusicMatcher - INFO - 
+Matches Needing Review:
+2024-12-21 13:18:29,267 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 13:18:29,267 - PlexMusicMatcher - INFO - 
+Potential Match 1:
+2024-12-21 13:18:29,267 - PlexMusicMatcher - INFO - Plex Artist: AmusicalSomebody
+Spotify Match: Adam Pascal
+Confidence: 59.64%
+Match Type: fuzzy
+Popularity: 52/100
+Genres: broadway, hollywood, show tunes
+
+Alternative matches:
+  1. Amick Byram (Popularity: 43/100)
+  2. Alice Lee (Popularity: 56/100)
+  3. Christy Altomare (Popularity: 55/100)
+  4. Anna Lea (Popularity: 62/100)
+2024-12-21 13:18:29,268 - PlexMusicMatcher - INFO - 
+Potential Match 2:
+2024-12-21 13:18:29,268 - PlexMusicMatcher - INFO - Plex Artist: DJ HASAN THE MONEY SCOUT
+Spotify Match: DJ Money Fresh
+Confidence: 64.63%
+Match Type: fuzzy
+Popularity: 20/100
+Genres: bounce
+
+Alternative matches:
+  1. Dj Marc Money (Popularity: 8/100)
+  2. DJ C Money (Popularity: 11/100)
+  3. DJ Crashout (Popularity: 20/100)
+  4. DJ HASAN IRSAN (Popularity: 2/100)
+2024-12-21 13:18:29,269 - PlexMusicMatcher - INFO - 
+Potential Match 3:
+2024-12-21 13:18:29,269 - PlexMusicMatcher - INFO - Plex Artist: Malone Alone
+Spotify Match: SUMMER ALONE
+Confidence: 78.57%
+Match Type: fuzzy
+Popularity: 44/100
+
+Alternative matches:
+  1. Malone (Popularity: 14/100)
+  2. Malone (Popularity: 13/100)
+  3. Post Malone (Popularity: 90/100)
+  4. alone (Popularity: 44/100)
+2024-12-21 13:18:29,270 - PlexMusicMatcher - INFO - 
+Potential Match 4:
+2024-12-21 13:18:29,270 - PlexMusicMatcher - INFO - Plex Artist: MGXTXM
+Spotify Match: MxPx
+Confidence: 74.90%
+Match Type: fuzzy
+Popularity: 49/100
+Genres: christian punk, pop punk, punk
+
+Alternative matches:
+  1. MXMS (Popularity: 32/100)
+  2. MXTZ (Popularity: 50/100)
+  3. MXRGX (Popularity: 41/100)
+  4. MxMxM (Popularity: 30/100)
+2024-12-21 13:18:29,270 - PlexMusicMatcher - INFO - 
+Potential Match 5:
+2024-12-21 13:18:29,271 - PlexMusicMatcher - INFO - Plex Artist: Nadzieja Nowak
+Spotify Match: Nadija Lapina
+Confidence: 78.27%
+Match Type: fuzzy
+Popularity: 41/100
+
+Alternative matches:
+  1. Paweł Nowak (Popularity: 31/100)
+  2. Aleksy Nowak (Popularity: 50/100)
+  3. Antonina Nowacka (Popularity: 22/100)
+  4. Nadia Tarnawsky (Popularity: 10/100)
+2024-12-21 13:18:29,271 - PlexMusicMatcher - INFO - 
+No Matches Found For:
+2024-12-21 13:18:29,272 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 13:18:29,272 - PlexMusicMatcher - INFO - 1. 利尔·伊泽
+2024-12-21 13:18:29,272 - PlexMusicMatcher - INFO - 
+Processing Summary:
+2024-12-21 13:18:29,272 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 13:18:29,272 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 13:18:29,273 - PlexMusicMatcher - INFO - Automatic matches: 513 (98.7%)
+2024-12-21 13:18:29,273 - PlexMusicMatcher - INFO - Needs review: 6 (1.2%)
+2024-12-21 13:18:29,273 - PlexMusicMatcher - INFO - No matches found: 1 (0.2%)
+2024-12-21 13:18:29,273 - PlexMusicMatcher - INFO - 
+Would you like to:
+2024-12-21 13:18:29,273 - PlexMusicMatcher - INFO - 1. Review potential matches
+2024-12-21 13:18:29,273 - PlexMusicMatcher - INFO - 2. Save results for later
+2024-12-21 13:18:29,274 - PlexMusicMatcher - INFO - 3. Exit
+2024-12-21 13:25:43,482 - PlexMusicMatcher - INFO - 
+Review completed with 6 decisions made.
+2024-12-21 13:25:43,506 - PlexMusicMatcher - INFO - Results and decisions saved with session ID: 20241221_132543

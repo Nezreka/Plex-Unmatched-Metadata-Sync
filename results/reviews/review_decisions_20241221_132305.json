@@ -1,0 +1,39 @@
+{
+  "50757": {
+    "action": "accept_primary",
+    "plex_artist": "AmusicalSomebody",
+    "spotify_id": "0bvwPCit9Yh0yVdLKGnXRi",
+    "spotify_name": "Adam Pascal",
+    "confidence": 0.5964444444444444
+  },
+  "166122": {
+    "action": "manual_match",
+    "plex_artist": "DJ HASAN THE MONEY SCOUT",
+    "spotify_id": "3PshAPNIKjKiM3FpmsDPSW",
+    "spotify_name": "DJ Hasan",
+    "search_term": "DJ Hasan",
+    "match_type": "exact"
+  },
+  "119711": {
+    "action": "no_match",
+    "plex_artist": "Malone Alone",
+    "reason": "manual_rejection"
+  },
+  "52448": {
+    "action": "no_match",
+    "plex_artist": "MGXTXM",
+    "reason": "manual_rejection"
+  },
+  "90553": {
+    "action": "no_match",
+    "plex_artist": "Nadzieja Nowak",
+    "reason": "manual_rejection"
+  },
+  "378664": {
+    "action": "accept_alternative",
+    "plex_artist": "\u0425\u041b\u0415\u0411",
+    "spotify_id": "0ZAwTQvhbSiEEGpNilBmq3",
+    "spotify_name": "\u0425\u041b\u0415\u0411 \u042f\u041c\u0410",
+    "original_confidence": 0.7772727272727273
+  }
+}

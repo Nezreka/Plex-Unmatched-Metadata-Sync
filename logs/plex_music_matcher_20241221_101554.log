@@ -1,0 +1,104 @@
+2024-12-21 10:15:54,361 - PlexMusicMatcher - INFO - Loading configuration...
+2024-12-21 10:15:54,363 - PlexMusicMatcher - INFO - Configuration loaded successfully!
+2024-12-21 10:15:54,363 - PlexMusicMatcher - INFO - Initializing Spotify connection...
+2024-12-21 10:15:54,363 - PlexMusicMatcher - INFO - Successfully connected to Spotify API
+2024-12-21 10:15:55,230 - PlexMusicMatcher - INFO - Initializing Plex connection...
+2024-12-21 10:15:55,230 - PlexMusicMatcher - INFO - Connecting to Plex server at http://192.168.86.21:32400/...
+2024-12-21 10:15:55,245 - PlexMusicMatcher - INFO - Successfully connected to Plex server: ThomasArchives
+2024-12-21 10:15:55,252 - PlexMusicMatcher - INFO - Successfully connected to music library: Music
+2024-12-21 10:15:55,253 - PlexMusicMatcher - INFO - Plex Server Version: 1.41.3.9292-bc7397402
+2024-12-21 10:15:55,287 - PlexMusicMatcher - INFO - Successfully accessed music library
+2024-12-21 10:15:55,288 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 10:15:55,288 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 10:16:00,183 - PlexMusicMatcher - INFO - Scanning 4592 total artists...
+2024-12-21 10:16:28,185 - PlexMusicMatcher - INFO - 
+Found 520 unmatched artists
+2024-12-21 10:16:28,198 - PlexMusicMatcher - INFO - Found 520 unmatched artists
+2024-12-21 10:16:28,199 - PlexMusicMatcher - INFO - Starting artist matching process...
+2024-12-21 10:26:33,495 - PlexMusicMatcher - INFO - 
+Matching Summary:
+2024-12-21 10:26:33,495 - PlexMusicMatcher - INFO - Automatic matches: 437
+2024-12-21 10:26:33,495 - PlexMusicMatcher - INFO - Needs review: 4
+2024-12-21 10:26:33,496 - PlexMusicMatcher - INFO - No matches found: 79
+2024-12-21 10:26:33,496 - PlexMusicMatcher - INFO - 
+Automatic Matches:
+2024-12-21 10:26:33,496 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 10:26:33,496 - PlexMusicMatcher - INFO - 
+Match 1:
+2024-12-21 10:26:33,496 - PlexMusicMatcher - INFO - Plex Artist: 5hags
+Spotify Match: 5hags
+Confidence: 100.00%
+Popularity: 4/100
+2024-12-21 10:26:33,497 - PlexMusicMatcher - INFO - 
+Match 2:
+2024-12-21 10:26:33,497 - PlexMusicMatcher - INFO - Plex Artist: 7-Pm
+Spotify Match: 7-Pm
+Confidence: 100.00%
+Popularity: 5/100
+2024-12-21 10:26:33,497 - PlexMusicMatcher - INFO - 
+Match 3:
+2024-12-21 10:26:33,497 - PlexMusicMatcher - INFO - Plex Artist: 7XL
+Spotify Match: 7XL
+Confidence: 100.00%
+Popularity: 4/100
+2024-12-21 10:26:33,498 - PlexMusicMatcher - INFO - 
+Match 4:
+2024-12-21 10:26:33,498 - PlexMusicMatcher - INFO - Plex Artist: 98.Morelo
+Spotify Match: 98.morelo
+Confidence: 100.00%
+Popularity: 11/100
+2024-12-21 10:26:33,498 - PlexMusicMatcher - INFO - 
+Match 5:
+2024-12-21 10:26:33,498 - PlexMusicMatcher - INFO - Plex Artist: Aaron Doh
+Spotify Match: Aaron Doh
+Confidence: 100.00%
+Popularity: 17/100
+2024-12-21 10:26:33,499 - PlexMusicMatcher - INFO - 
+Matches Needing Review:
+2024-12-21 10:26:33,499 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 10:26:33,499 - PlexMusicMatcher - INFO - 
+Potential Match 1:
+2024-12-21 10:26:33,499 - PlexMusicMatcher - INFO - Plex Artist: Desiree Mishoe
+Spotify Match: Désirée Mishoe
+Confidence: 90.71%
+Popularity: 0/100
+2024-12-21 10:26:33,500 - PlexMusicMatcher - INFO - 
+Potential Match 2:
+2024-12-21 10:26:33,500 - PlexMusicMatcher - INFO - Plex Artist: Duy Ngoc
+Spotify Match: Duy Ngọc
+Confidence: 92.50%
+Popularity: 0/100
+2024-12-21 10:26:33,500 - PlexMusicMatcher - INFO - 
+Potential Match 3:
+2024-12-21 10:26:33,500 - PlexMusicMatcher - INFO - Plex Artist: Jam'addict
+Spotify Match: Jam Addiction
+Confidence: 91.96%
+Popularity: 0/100
+2024-12-21 10:26:33,501 - PlexMusicMatcher - INFO - 
+Potential Match 4:
+2024-12-21 10:26:33,501 - PlexMusicMatcher - INFO - Plex Artist: L'essay
+Spotify Match: Low Essay
+Confidence: 92.50%
+Popularity: 0/100
+2024-12-21 10:26:33,501 - PlexMusicMatcher - INFO - 
+No Matches Found For:
+2024-12-21 10:26:33,501 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 10:26:33,502 - PlexMusicMatcher - INFO - 1. Acedox
+2024-12-21 10:26:33,502 - PlexMusicMatcher - INFO - 2. Adam Don't Die
+2024-12-21 10:26:33,502 - PlexMusicMatcher - INFO - 3. All Oc's
+2024-12-21 10:26:33,502 - PlexMusicMatcher - INFO - 4. AmusicalSomebody
+2024-12-21 10:26:33,502 - PlexMusicMatcher - INFO - 5. Apashe, CloZee
+2024-12-21 10:26:33,503 - PlexMusicMatcher - INFO - 
+Processing Summary:
+2024-12-21 10:26:33,503 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 10:26:33,503 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 10:26:33,503 - PlexMusicMatcher - INFO - Automatic matches: 437 (84.0%)
+2024-12-21 10:26:33,503 - PlexMusicMatcher - INFO - Needs review: 4 (0.8%)
+2024-12-21 10:26:33,504 - PlexMusicMatcher - INFO - No matches found: 79 (15.2%)
+2024-12-21 10:26:33,504 - PlexMusicMatcher - INFO - 
+Would you like to:
+2024-12-21 10:26:33,504 - PlexMusicMatcher - INFO - 1. Review potential matches
+2024-12-21 10:26:33,504 - PlexMusicMatcher - INFO - 2. Save results for later
+2024-12-21 10:26:33,504 - PlexMusicMatcher - INFO - 3. Exit
+2024-12-21 10:27:26,117 - PlexMusicMatcher - ERROR - Error during review process: 'bool' object has no attribute 'substitute'
+2024-12-21 10:27:26,117 - PlexMusicMatcher - INFO - Your progress has been saved.

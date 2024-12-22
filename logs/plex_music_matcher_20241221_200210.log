@@ -1,0 +1,180 @@
+2024-12-21 20:02:10,087 - PlexMusicMatcher - INFO - Loading configuration...
+2024-12-21 20:02:10,088 - PlexMusicMatcher - INFO - Configuration loaded successfully!
+2024-12-21 20:02:10,088 - PlexMusicMatcher - INFO - Initializing Spotify connection...
+2024-12-21 20:02:10,088 - PlexMusicMatcher - INFO - Successfully connected to Spotify API
+2024-12-21 20:02:10,393 - PlexMusicMatcher - INFO - Initializing Plex connection...
+2024-12-21 20:02:10,393 - PlexMusicMatcher - INFO - Connecting to Plex server at http://192.168.86.21:32400/...
+2024-12-21 20:02:10,399 - PlexMusicMatcher - INFO - Successfully connected to Plex server: ThomasArchives
+2024-12-21 20:02:10,402 - PlexMusicMatcher - INFO - Successfully connected to music library: Music
+2024-12-21 20:02:10,404 - PlexMusicMatcher - INFO - Plex Server Version: 1.41.3.9292-bc7397402
+2024-12-21 20:02:10,438 - PlexMusicMatcher - INFO - Successfully accessed music library
+2024-12-21 20:02:10,439 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 20:02:10,439 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 20:02:14,985 - PlexMusicMatcher - INFO - Scanning 4592 total artists...
+2024-12-21 20:02:40,178 - PlexMusicMatcher - INFO - 
+Found 520 unmatched artists
+2024-12-21 20:02:40,190 - PlexMusicMatcher - INFO - Found 520 unmatched artists
+2024-12-21 20:02:40,191 - PlexMusicMatcher - INFO - Starting artist matching process...
+2024-12-21 20:15:45,706 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 20:15:45,706 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 20:15:45,706 - PlexMusicMatcher - INFO - Automatic matches: 513 (98.7%)
+2024-12-21 20:15:45,706 - PlexMusicMatcher - INFO - Needs review: 6 (1.2%)
+2024-12-21 20:15:45,706 - PlexMusicMatcher - INFO - No matches found: 1 (0.2%)
+2024-12-21 20:15:45,706 - PlexMusicMatcher - INFO - 
+Automatic Matches:
+2024-12-21 20:15:45,707 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 20:15:45,707 - PlexMusicMatcher - INFO - 
+Match 1:
+2024-12-21 20:15:45,707 - PlexMusicMatcher - INFO - Plex Artist: 5hags
+Spotify Match: 5hags
+Confidence: 100.00%
+Match Type: exact
+Popularity: 4/100
+2024-12-21 20:15:45,707 - PlexMusicMatcher - INFO - 
+Match 2:
+2024-12-21 20:15:45,708 - PlexMusicMatcher - INFO - Plex Artist: 7-Pm
+Spotify Match: 7-Pm
+Confidence: 100.00%
+Match Type: exact
+Popularity: 5/100
+2024-12-21 20:15:45,708 - PlexMusicMatcher - INFO - 
+Match 3:
+2024-12-21 20:15:45,708 - PlexMusicMatcher - INFO - Plex Artist: 7XL
+Spotify Match: 7XL
+Confidence: 100.00%
+Match Type: exact
+Popularity: 4/100
+
+Alternative matches:
+  1. 7XL (Popularity: 0/100)
+2024-12-21 20:15:45,709 - PlexMusicMatcher - INFO - 
+Match 4:
+2024-12-21 20:15:45,709 - PlexMusicMatcher - INFO - Plex Artist: 98.Morelo
+Spotify Match: 98.Morelo
+Confidence: 100.00%
+Match Type: exact
+Popularity: 0/100
+
+Alternative matches:
+  1. 98.morelo (Popularity: 11/100)
+2024-12-21 20:15:45,709 - PlexMusicMatcher - INFO - 
+Match 5:
+2024-12-21 20:15:45,710 - PlexMusicMatcher - INFO - Plex Artist: Aaron Doh
+Spotify Match: Aaron Doh
+Confidence: 100.00%
+Match Type: exact
+Popularity: 17/100
+2024-12-21 20:15:45,710 - PlexMusicMatcher - INFO - 
+Matches Needing Review:
+2024-12-21 20:15:45,710 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 20:15:45,710 - PlexMusicMatcher - INFO - 
+Potential Match 1:
+2024-12-21 20:15:45,710 - PlexMusicMatcher - INFO - Plex Artist: AmusicalSomebody
+Spotify Match: Adam Pascal
+Confidence: 59.64%
+Match Type: fuzzy
+Popularity: 52/100
+Genres: broadway, hollywood, show tunes
+
+Alternative matches:
+  1. Amick Byram (Popularity: 43/100)
+  2. Alice Lee (Popularity: 56/100)
+  3. Christy Altomare (Popularity: 55/100)
+  4. Anna Lea (Popularity: 62/100)
+2024-12-21 20:15:45,711 - PlexMusicMatcher - INFO - 
+Potential Match 2:
+2024-12-21 20:15:45,711 - PlexMusicMatcher - INFO - Plex Artist: DJ HASAN THE MONEY SCOUT
+Spotify Match: DJ Money Fresh
+Confidence: 64.63%
+Match Type: fuzzy
+Popularity: 20/100
+Genres: bounce
+
+Alternative matches:
+  1. Dj Marc Money (Popularity: 8/100)
+  2. DJ C Money (Popularity: 11/100)
+  3. DJ Crashout (Popularity: 20/100)
+  4. DJ HASAN IRSAN (Popularity: 2/100)
+2024-12-21 20:15:45,712 - PlexMusicMatcher - INFO - 
+Potential Match 3:
+2024-12-21 20:15:45,712 - PlexMusicMatcher - INFO - Plex Artist: Malone Alone
+Spotify Match: SUMMER ALONE
+Confidence: 78.57%
+Match Type: fuzzy
+Popularity: 44/100
+
+Alternative matches:
+  1. Malone (Popularity: 14/100)
+  2. Malone (Popularity: 13/100)
+  3. Post Malone (Popularity: 90/100)
+  4. alone (Popularity: 44/100)
+2024-12-21 20:15:45,713 - PlexMusicMatcher - INFO - 
+Potential Match 4:
+2024-12-21 20:15:45,713 - PlexMusicMatcher - INFO - Plex Artist: MGXTXM
+Spotify Match: MXMS
+Confidence: 73.20%
+Match Type: fuzzy
+Popularity: 32/100
+Genres: dark pop, la pop
+
+Alternative matches:
+  1. MXTZ (Popularity: 50/100)
+  2. MXRGX (Popularity: 41/100)
+  3. MxMxM (Popularity: 30/100)
+  4. MXPEX (Popularity: 42/100)
+2024-12-21 20:15:45,714 - PlexMusicMatcher - INFO - 
+Potential Match 5:
+2024-12-21 20:15:45,714 - PlexMusicMatcher - INFO - Plex Artist: Nadzieja Nowak
+Spotify Match: Nadija Lapina
+Confidence: 78.27%
+Match Type: fuzzy
+Popularity: 41/100
+
+Alternative matches:
+  1. Paweł Nowak (Popularity: 31/100)
+  2. Aleksy Nowak (Popularity: 50/100)
+  3. Antonina Nowacka (Popularity: 22/100)
+  4. Nadia Tarnawsky (Popularity: 10/100)
+2024-12-21 20:15:45,715 - PlexMusicMatcher - INFO - 
+No Matches Found For:
+2024-12-21 20:15:45,715 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 20:15:45,715 - PlexMusicMatcher - INFO - 1. 利尔·伊泽
+2024-12-21 20:15:45,715 - PlexMusicMatcher - INFO - 
+Processing Summary:
+2024-12-21 20:15:45,715 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 20:15:45,716 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 20:15:45,716 - PlexMusicMatcher - INFO - Automatic matches: 513 (98.7%)
+2024-12-21 20:15:45,716 - PlexMusicMatcher - INFO - Needs review: 6 (1.2%)
+2024-12-21 20:15:45,716 - PlexMusicMatcher - INFO - No matches found: 1 (0.2%)
+2024-12-21 20:15:45,716 - PlexMusicMatcher - INFO - 
+Found 513 automatic matches.
+2024-12-21 20:15:45,717 - PlexMusicMatcher - INFO - Would you like to update these artists in Plex now? (y/n)
+2024-12-21 20:17:00,798 - PlexMusicMatcher - INFO - Starting updates for 513 artists
+2024-12-21 20:17:00,801 - PlexMusicMatcher - INFO - Processing 5hags
+2024-12-21 20:17:00,801 - PlexMusicMatcher - INFO - Updating Plex metadata for 5hags
+2024-12-21 20:17:00,801 - PlexMusicMatcher - INFO - Fetching Plex item for rating key: 159367
+2024-12-21 20:17:00,828 - PlexMusicMatcher - INFO - Updating metadata for: 5hags
+2024-12-21 20:17:00,828 - PlexMusicMatcher - INFO - Attempting to fetch bio for: 5hags
+2024-12-21 20:17:00,828 - PlexMusicMatcher - INFO - Starting Spotify API request for ID: 39Os5UhaIBWsVGd8DlRgCp
+2024-12-21 20:17:00,943 - PlexMusicMatcher - INFO - Successfully fetched artist data from Spotify
+2024-12-21 20:17:00,944 - PlexMusicMatcher - INFO - Bio found, adding to metadata updates
+2024-12-21 20:17:00,944 - PlexMusicMatcher - INFO - Applying metadata updates
+2024-12-21 20:17:00,948 - PlexMusicMatcher - INFO - Updating artist image
+2024-12-21 20:17:01,178 - PlexMusicMatcher - INFO - Image update successful
+2024-12-21 20:17:01,179 - PlexMusicMatcher - INFO - Successfully updated 5hags
+2024-12-21 20:17:01,179 - PlexMusicMatcher - INFO - Successfully updated 5hags
+2024-12-21 20:17:01,179 - PlexMusicMatcher - INFO - Processing 7-Pm
+2024-12-21 20:17:01,179 - PlexMusicMatcher - INFO - Updating Plex metadata for 7-Pm
+2024-12-21 20:17:01,179 - PlexMusicMatcher - INFO - Fetching Plex item for rating key: 360875
+2024-12-21 20:17:01,184 - PlexMusicMatcher - INFO - Updating metadata for: 7-Pm
+2024-12-21 20:17:01,184 - PlexMusicMatcher - INFO - Attempting to fetch bio for: 7-Pm
+2024-12-21 20:17:01,184 - PlexMusicMatcher - INFO - Starting Spotify API request for ID: 3UUJSY5N4QAeeEKvauP214
+2024-12-21 20:21:34,719 - PlexMusicMatcher - INFO - 
+Update process interrupted by user
+2024-12-21 20:21:34,724 - PlexMusicMatcher - INFO - 
+Would you like to:
+2024-12-21 20:21:34,724 - PlexMusicMatcher - INFO - 1. Review potential matches
+2024-12-21 20:21:34,724 - PlexMusicMatcher - INFO - 2. Apply updates to Plex
+2024-12-21 20:21:34,724 - PlexMusicMatcher - INFO - 3. Save results for later
+2024-12-21 20:21:34,724 - PlexMusicMatcher - INFO - 4. Exit
+2024-12-21 20:21:35,513 - PlexMusicMatcher - INFO - Exiting...

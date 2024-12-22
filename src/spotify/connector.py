@@ -5,48 +5,32 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from typing import Dict, Optional, List, Any, Tuple
 import time
 import logging
-from dataclasses import dataclass
 from urllib.parse import quote
 import re
 from difflib import SequenceMatcher
-
-@dataclass
-class SpotifyArtistInfo:
-    """Data class to store fetched Spotify artist information"""
-    id: str
-    name: str
-    genres: List[str]
-    popularity: int
-    followers: int
-    images: List[Dict[str, Any]]  # URLs of different sized images
-    spotify_url: str
-    bio: Optional[str] = None
+from .models import SpotifyArtistInfo
+from functools import lru_cache
 
 class SpotifyConnector:
     def __init__(self, config: dict, logger: logging.Logger):
-        """
-        Initialize Spotify connector with rate limiting and caching
-        
-        Args:
-            config: Dictionary containing Spotify credentials
-            logger: Logger instance
-        """
         self.logger = logger
         self.client_id = config['client_id']
         self.client_secret = config['client_secret']
         self.spotify = None
         self._connect()
         
-        # Rate limiting parameters
+        # Rate limiting parameters 
         self.last_request_time = 0
-        self.min_request_interval = 0.05  # 50ms between requests
+        self.min_request_interval = 0.1  # Increased from 0.05
         self.request_count = 0
-        self.request_limit = 25  # requests per window
-        self.window_size = 30  # seconds
+        self.request_limit = 20  # Decreased from 25
+        self.window_size = 30
         self.window_start = time.time()
         
-        # Cache for artist searches
+        # Cache settings (leave these unchanged)
         self.cache = {}
+        self.cache_timeout = config.get('cache_timeout', 3600)  # 1 hour default
+        self.cache_max_size = config.get('cache_max_size', 1000)
 
     def _connect(self) -> None:
         """Establish connection to Spotify API"""
@@ -55,7 +39,12 @@ class SpotifyConnector:
                 client_id=self.client_id,
                 client_secret=self.client_secret
             )
-            self.spotify = spotipy.Spotify(auth_manager=auth_manager)
+            # Create client with custom settings
+            self.spotify = spotipy.Spotify(
+                auth_manager=auth_manager,
+                requests_timeout=10,
+                retries=3
+            )
             self.logger.info("Successfully connected to Spotify API")
         except Exception as e:
             self.logger.error(f"Failed to connect to Spotify API: {str(e)}")
@@ -65,10 +54,22 @@ class SpotifyConnector:
         """Handle rate limiting for Spotify API requests"""
         current_time = time.time()
         
+        # Debug logging for rate limit status
+        self.logger.debug(
+            f"Rate limit status: {self.request_count}/{self.request_limit} "
+            f"requests in current window, "
+            f"window expires in {self.window_size - (current_time - self.window_start):.1f}s"
+        )
+        
         # Reset window if needed
         if current_time - self.window_start > self.window_size:
             self.window_start = current_time
             self.request_count = 0
+        
+        # If well under limit, proceed without delay
+        if self.request_count < (self.request_limit * 0.8):
+            self.request_count += 1
+            return
         
         # Check if we need to wait
         if self.request_count >= self.request_limit:
@@ -87,14 +88,41 @@ class SpotifyConnector:
         self.last_request_time = time.time()
         self.request_count += 1
 
+    def _check_cache(self, cache_key: str) -> Optional[List[SpotifyArtistInfo]]:
+        """Check cache with expiry"""
+        if cache_key in self.cache:
+            cache_entry = self.cache[cache_key]
+            cache_time = cache_entry.get('time', 0)
+            if time.time() - cache_time < self.cache_timeout:
+                self.logger.debug(f"Cache hit for: {cache_key}")
+                return cache_entry.get('data')
+            else:
+                # Remove expired entry
+                del self.cache[cache_key]
+        return None
+
+    def _update_cache(self, cache_key: str, data: List[SpotifyArtistInfo]) -> None:
+        """Update cache with timestamp"""
+        self.cache[cache_key] = {
+            'time': time.time(),
+            'data': data
+        }
+        self._cleanup_cache()
+
+    def _cleanup_cache(self) -> None:
+        """Remove oldest entries if cache exceeds max size"""
+        if len(self.cache) > self.cache_max_size:
+            # Sort by timestamp and keep newest entries
+            sorted_cache = sorted(self.cache.items(), 
+                                key=lambda x: x[1]['time'], 
+                                reverse=True)
+            self.cache = dict(sorted_cache[:self.cache_max_size])
+
     def _normalize_artist_name(self, name: str) -> str:
-        """
-        Normalize artist name for comparison
-        - Convert to lowercase
-        - Remove special characters
-        - Remove extra spaces
-        - Remove common prefixes/suffixes
-        """
+        """Normalize artist name for comparison"""
+        if not name:
+            return ""
+            
         # Convert to lowercase
         name = name.lower()
         
@@ -102,25 +130,44 @@ class SpotifyConnector:
         name = re.sub(r'\([^)]*\)', '', name)
         name = re.sub(r'\[[^]]*\]', '', name)
         
-        # Remove special characters but keep hyphen and period
-        name = re.sub(r'[^a-z0-9\-\.]', ' ', name)
+        # Handle special characters but preserve important ones
+        name = re.sub(r'[^\w\s\-]', '', name)
         
         # Replace multiple spaces with single space
         name = re.sub(r'\s+', ' ', name)
         
-        # Remove spaces around hyphens
-        name = re.sub(r'\s*-\s*', '-', name)
-        
         # Strip leading/trailing spaces
         name = name.strip()
         
+        self.logger.debug(f"Normalized name: '{name}'")
         return name
 
+    def _process_complex_artist_name(self, artist_name: str) -> Optional[List[SpotifyArtistInfo]]:
+        """Handle artists with multiple names or special characters"""
+        # Split on common separators
+        separators = ['&', ',', 'and', 'feat.', 'ft.', '+']
+        parts = artist_name
+        for sep in separators:
+            parts = parts.replace(sep, '|')
+        artists = [a.strip() for a in parts.split('|') if a.strip()]
+        
+        self.logger.debug(f"Processing complex name: '{artist_name}' -> {artists}")
+        
+        # Search for primary artist (first name)
+        if artists:
+            primary_results = self.search_artist(artists[0], exact_match=True)
+            if primary_results:
+                return primary_results
+            
+            # Try the longest name segment as backup
+            longest_name = max(artists, key=len)
+            if longest_name != artists[0]:
+                return self.search_artist(longest_name, exact_match=True)
+        
+        return None
+
     def _calculate_similarity_score(self, name1: str, name2: str) -> Tuple[float, bool]:
-        """
-        Calculate similarity between two artist names
-        Returns: (similarity_score, is_exact_match)
-        """
+        """Calculate similarity between two artist names"""
         norm1 = self._normalize_artist_name(name1)
         norm2 = self._normalize_artist_name(name2)
         
@@ -134,7 +181,7 @@ class SpotifyConnector:
         # Use SequenceMatcher for fuzzy matching
         sequence_similarity = SequenceMatcher(None, norm1, norm2).ratio()
         
-        # Check for contained names (e.g., "The Beatles" vs "Beatles")
+        # Check for contained names
         if norm1 in norm2 or norm2 in norm1:
             contained_similarity = len(min(norm1, norm2, key=len)) / len(max(norm1, norm2, key=len))
             similarity = max(sequence_similarity, contained_similarity)
@@ -143,84 +190,190 @@ class SpotifyConnector:
         
         return (similarity, False)
 
-    def search_artist(self, artist_name: str) -> List[SpotifyArtistInfo]:
-        """
-        Search for an artist on Spotify with enhanced matching
-        """
-        cache_key = self._normalize_artist_name(artist_name)
-        if cache_key in self.cache:
-            self.logger.debug(f"Cache hit for artist: {artist_name}")
-            return self.cache[cache_key]
-
+    def _validate_artist_data(self, artist_data: Dict) -> bool:
+        """Validate required fields in artist data"""
+        required_fields = ['id', 'name']
+        return all(field in artist_data for field in required_fields)
+    
+    def get_artist_by_id(self, spotify_id: str) -> Optional[SpotifyArtistInfo]:
+        """Fetch artist data by Spotify ID"""
         try:
-            self._handle_rate_limit()
+            self.logger.info(f"Starting Spotify API request for ID: {spotify_id}")
+            self._handle_rate_limit()  # Make sure we're not rate limited
             
-            # First try exact artist search
-            exact_results = self.spotify.search(
-                q=f"artist:\"{quote(artist_name)}\"",
-                type='artist',
-                limit=20  # Increased limit to find more potential matches
+            # Add timing debug
+            start_time = time.time()
+            self.logger.debug(f"Making Spotify API call at {start_time}")
+            
+            # Force a new token if needed
+            if not self.spotify.auth_manager.get_access_token():
+                self.logger.info("Refreshing Spotify access token")
+                self._connect()
+            
+            artist = self.spotify.artist(spotify_id)
+            
+            end_time = time.time()
+            self.logger.debug(f"Spotify API call completed in {end_time - start_time:.2f} seconds")
+            
+            if not artist:
+                self.logger.error(f"No artist data returned for ID: {spotify_id}")
+                return None
+                
+            self.logger.info("Successfully fetched artist data from Spotify")
+            
+            return SpotifyArtistInfo(
+                id=artist['id'],
+                name=artist['name'],
+                popularity=artist['popularity'],
+                genres=artist['genres'],
+                followers=artist['followers']['total'],
+                spotify_url=artist['external_urls']['spotify'],
+                images=artist['images']
             )
-
-            candidates = []
-            seen_ids = set()
-
-            # Process all results and calculate similarity scores
-            for item in exact_results['artists']['items']:
-                if item['id'] not in seen_ids:
-                    seen_ids.add(item['id'])
-                    similarity_score, is_exact = self._calculate_similarity_score(
-                        artist_name, item['name']
-                    )
-                    
-                    # Only consider results with good similarity
-                    if similarity_score > 0.8:  # Adjust threshold as needed
-                        full_artist = self.spotify.artist(item['id'])
-                        artist_info = SpotifyArtistInfo(
-                            id=full_artist['id'],
-                            name=full_artist['name'],
-                            genres=full_artist['genres'],
-                            popularity=full_artist['popularity'],
-                            followers=full_artist['followers']['total'],
-                            images=full_artist['images'],
-                            spotify_url=full_artist['external_urls']['spotify']
-                        )
-                        candidates.append((artist_info, similarity_score, is_exact))
-
-            # Sort candidates by:
-            # 1. Exact match
-            # 2. Similarity score
-            # 3. Popularity
-            candidates.sort(key=lambda x: (
-                x[2],  # is_exact
-                x[1],  # similarity_score
-                x[0].popularity
-            ), reverse=True)
-
-            # If we have multiple exact matches, choose the one with highest popularity
-            final_results = []
-            exact_matches = [c for c in candidates if c[2]]  # Get all exact matches
-            
-            if exact_matches:
-                # Take the most popular exact match
-                best_match = max(exact_matches, key=lambda x: x[0].popularity)
-                final_results.append(best_match[0])
-            else:
-                # Take top 3 close matches
-                final_results.extend(c[0] for c in candidates[:3])
-
-            # Cache results
-            self.cache[cache_key] = final_results
-            return final_results
-
+        except spotipy.exceptions.SpotifyException as e:
+            self.logger.error(f"Spotify API error for ID {spotify_id}: {str(e)}")
+            if e.http_status == 429:  # Rate limiting
+                retry_after = int(e.headers.get('Retry-After', 5))
+                self.logger.warning(f"Rate limited, waiting {retry_after} seconds")
+                time.sleep(retry_after)
+            return None
         except Exception as e:
-            self.logger.error(f"Error searching for artist '{artist_name}': {str(e)}")
-            return []
+            self.logger.error(f"Error fetching artist by ID {spotify_id}: {str(e)}")
+            return None
+
+    def _create_artist_info(self, artist_data: Dict) -> Optional[SpotifyArtistInfo]:
+        """Create SpotifyArtistInfo object with validation"""
+        if not self._validate_artist_data(artist_data):
+            self.logger.warning(f"Invalid artist data received: {artist_data}")
+            return None
+            
+        return SpotifyArtistInfo(
+            id=artist_data['id'],
+            name=artist_data['name'],
+            genres=artist_data.get('genres', []),
+            popularity=artist_data.get('popularity', 0),
+            followers=artist_data.get('followers', {}).get('total', 0),
+            images=artist_data.get('images', []),
+            spotify_url=artist_data.get('external_urls', {}).get('spotify', '')
+        )
+    
+    def get_artist_bio(self, artist_id: str) -> Optional[str]:
+        """Generate artist biography from available data"""
+        try:
+            # Use the artist data we already have from the cache
+            artist = self.get_artist_by_id(artist_id)
+            if not artist:
+                return None
+            
+            # Construct bio from available data
+            bio_parts = []
+            
+            # Add name and genres
+            if artist.genres:
+                genres_text = ", ".join(artist.genres)
+                bio_parts.append(f"{artist.name} is an artist known for their work in {genres_text}.")
+            else:
+                bio_parts.append(f"{artist.name} is a recording artist.")
+            
+            # Add popularity and followers info
+            if artist.popularity > 0:
+                popularity_text = "rising" if artist.popularity < 40 else "popular" if artist.popularity < 70 else "highly popular"
+                bio_parts.append(f"They are a {popularity_text} artist on Spotify")
+                
+                if artist.followers > 0:
+                    bio_parts[-1] += f" with {artist.followers:,} followers."
+                else:
+                    bio_parts[-1] += "."
+            
+            # Combine all parts
+            bio = " ".join(bio_parts)
+            
+            return bio
+            
+        except Exception as e:
+            self.logger.error(f"Error generating artist bio: {str(e)}")
+            return None
+
+    def search_artist(self, artist_name: str, max_retries: int = 3, retry_delay: float = 1.0, exact_match: bool = False) -> Optional[List[SpotifyArtistInfo]]:
+        """Search for an artist on Spotify"""
+        if not artist_name:
+            self.logger.warning("Empty artist name provided")
+            return None
+
+        # Check cache first
+        cache_key = f"{artist_name}_{exact_match}"
+        cached_result = self._check_cache(cache_key)
+        if cached_result is not None:
+            return cached_result
+
+        # Clean up artist name for search
+        search_name = artist_name.strip()
+        normalized_search = self._normalize_artist_name(search_name)
+        
+        self.logger.debug(f"Searching for: '{search_name}' (normalized: '{normalized_search}')")
+        
+        # Check if this is a complex artist name
+        if any(sep in search_name for sep in ['&', ',', 'and', 'feat.', 'ft.', '+']):
+            complex_results = self._process_complex_artist_name(search_name)
+            if complex_results:
+                self._update_cache(cache_key, complex_results)
+                return complex_results
+
+        for attempt in range(max_retries):
+            try:
+                if attempt > 0:
+                    time.sleep(retry_delay)
+
+                self._handle_rate_limit()
+                results = self.spotify.search(q=search_name, type='artist', limit=20)
+                
+                if not results or 'artists' not in results or 'items' not in results['artists']:
+                    self.logger.debug(f"No valid results found for '{search_name}'")
+                    return None
+
+                artists = []
+                for artist in results['artists']['items']:
+                    try:
+                        artist_info = self._create_artist_info(artist)
+                        if artist_info:
+                            normalized_result = self._normalize_artist_name(artist_info.name)
+                            self.logger.debug(f"Comparing: '{normalized_result}' with '{normalized_search}'")
+                            
+                            if exact_match:
+                                if normalized_result == normalized_search:
+                                    self.logger.debug(f"Found exact match: {artist_info.name}")
+                                    artists.append(artist_info)
+                            else:
+                                artists.append(artist_info)
+                    except Exception as e:
+                        self.logger.warning(f"Error processing artist result: {str(e)}")
+                        continue
+
+                if artists:
+                    self._update_cache(cache_key, artists)
+                return artists if artists else None
+
+            except spotipy.SpotifyException as e:
+                if e.http_status == 429:
+                    retry_after = int(e.headers.get('Retry-After', retry_delay))
+                    self.logger.warning(f"Rate limited, waiting {retry_after} seconds...")
+                    time.sleep(retry_after)
+                    continue
+                elif attempt == max_retries - 1:
+                    self.logger.error(f"Spotify API error: {str(e)}")
+                    return None
+                
+            except Exception as e:
+                if attempt == max_retries - 1:
+                    self.logger.error(f"Failed to search for artist '{search_name}' after {max_retries} attempts: {str(e)}")
+                    return None
+                self.logger.warning(f"Search attempt {attempt + 1} failed, retrying in {retry_delay} seconds...")
+                continue
+
+        return None
 
     def get_artist_metadata_status(self, artist: SpotifyArtistInfo) -> Dict[str, bool]:
-        """
-        Check what metadata is available for an artist
-        """
+        """Check what metadata is available for an artist"""
         return {
             'has_genres': len(artist.genres) > 0,
             'has_images': len(artist.images) > 0,
@@ -228,31 +381,13 @@ class SpotifyConnector:
             'has_followers': artist.followers > 0
         }
 
+    @lru_cache(maxsize=1000)
     def get_artist_details(self, artist_id: str) -> Optional[SpotifyArtistInfo]:
-        """
-        Get detailed information for a specific artist
-        
-        Args:
-            artist_id: Spotify artist ID
-            
-        Returns:
-            Detailed artist information or None if not found
-        """
+        """Get detailed information for a specific artist"""
         try:
             self._handle_rate_limit()
-            
             artist = self.spotify.artist(artist_id)
-            
-            return SpotifyArtistInfo(
-                id=artist['id'],
-                name=artist['name'],
-                genres=artist['genres'],
-                popularity=artist['popularity'],
-                followers=artist['followers']['total'],
-                images=artist['images'],
-                spotify_url=artist['external_urls']['spotify']
-            )
-
+            return self._create_artist_info(artist)
         except Exception as e:
             self.logger.error(f"Error fetching artist details for ID '{artist_id}': {str(e)}")
             return None
@@ -260,9 +395,8 @@ class SpotifyConnector:
     def test_connection(self) -> bool:
         """Test the Spotify API connection"""
         try:
-            # Try to search for a common artist as a test
             test_result = self.search_artist("The Beatles")
-            return len(test_result) > 0
+            return test_result is not None and len(test_result) > 0
         except Exception as e:
             self.logger.error(f"Spotify connection test failed: {str(e)}")
             return False

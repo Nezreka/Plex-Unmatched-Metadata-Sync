@@ -1,0 +1,1226 @@
+2024-12-21 15:40:10,188 - PlexMusicMatcher - INFO - Loading configuration...
+2024-12-21 15:40:10,188 - PlexMusicMatcher - INFO - Configuration loaded successfully!
+2024-12-21 15:40:10,189 - PlexMusicMatcher - INFO - Initializing Spotify connection...
+2024-12-21 15:40:10,189 - PlexMusicMatcher - INFO - Successfully connected to Spotify API
+2024-12-21 15:40:10,471 - PlexMusicMatcher - INFO - Initializing Plex connection...
+2024-12-21 15:40:10,471 - PlexMusicMatcher - INFO - Connecting to Plex server at http://192.168.86.21:32400/...
+2024-12-21 15:40:10,477 - PlexMusicMatcher - INFO - Successfully connected to Plex server: ThomasArchives
+2024-12-21 15:40:10,481 - PlexMusicMatcher - INFO - Successfully connected to music library: Music
+2024-12-21 15:40:10,481 - PlexMusicMatcher - INFO - Plex Server Version: 1.41.3.9292-bc7397402
+2024-12-21 15:40:10,520 - PlexMusicMatcher - INFO - Successfully accessed music library
+2024-12-21 15:40:10,521 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 15:40:10,521 - PlexMusicMatcher - INFO - Scanning for unmatched artists...
+2024-12-21 15:40:15,337 - PlexMusicMatcher - INFO - Scanning 4592 total artists...
+2024-12-21 15:40:45,098 - PlexMusicMatcher - INFO - 
+Found 520 unmatched artists
+2024-12-21 15:40:45,112 - PlexMusicMatcher - INFO - Found 520 unmatched artists
+2024-12-21 15:40:45,113 - PlexMusicMatcher - INFO - Starting artist matching process...
+2024-12-21 15:41:15,337 - PlexMusicMatcher - WARNING - Matching timed out for artist: Alex Lambrino (took 22.5s, threshold: 15s)
+2024-12-21 15:41:15,337 - PlexMusicMatcher - INFO - Got result despite timeout for: Alex Lambrino
+2024-12-21 15:41:45,303 - PlexMusicMatcher - WARNING - Matching timed out for artist: Arup Das (took 22.7s, threshold: 15s)
+2024-12-21 15:41:45,303 - PlexMusicMatcher - INFO - Got result despite timeout for: Arup Das
+2024-12-21 15:42:15,271 - PlexMusicMatcher - WARNING - Matching timed out for artist: Brray, Anuel AA, Chencho Corleone, JHAYCO, Ryan Castro (took 22.4s, threshold: 15s)
+2024-12-21 15:42:15,272 - PlexMusicMatcher - INFO - Got result despite timeout for: Brray, Anuel AA, Chencho Corleone, JHAYCO, Ryan Castro
+2024-12-21 15:42:45,327 - PlexMusicMatcher - WARNING - Matching timed out for artist: Cyn Tremeau (took 22.2s, threshold: 15s)
+2024-12-21 15:42:45,327 - PlexMusicMatcher - INFO - Got result despite timeout for: Cyn Tremeau
+2024-12-21 15:43:15,319 - PlexMusicMatcher - WARNING - Matching timed out for artist: Dillon Francis & TV Noise (took 22.7s, threshold: 15s)
+2024-12-21 15:43:15,320 - PlexMusicMatcher - INFO - Got result despite timeout for: Dillon Francis & TV Noise
+2024-12-21 15:43:45,360 - PlexMusicMatcher - WARNING - Matching timed out for artist: Dub Phizix, Skittles (took 22.5s, threshold: 15s)
+2024-12-21 15:43:45,360 - PlexMusicMatcher - INFO - Got result despite timeout for: Dub Phizix, Skittles
+2024-12-21 15:44:15,326 - PlexMusicMatcher - WARNING - Matching timed out for artist: Fractal Designs (took 22.4s, threshold: 15s)
+2024-12-21 15:44:15,326 - PlexMusicMatcher - INFO - Got result despite timeout for: Fractal Designs
+2024-12-21 15:44:45,319 - PlexMusicMatcher - WARNING - Matching timed out for artist: Guillaume Defradat (took 22.1s, threshold: 15s)
+2024-12-21 15:44:45,319 - PlexMusicMatcher - INFO - Got result despite timeout for: Guillaume Defradat
+2024-12-21 15:45:15,329 - PlexMusicMatcher - WARNING - Matching timed out for artist: Indeb (took 21.9s, threshold: 15s)
+2024-12-21 15:45:15,330 - PlexMusicMatcher - INFO - Got result despite timeout for: Indeb
+2024-12-21 15:45:45,303 - PlexMusicMatcher - WARNING - Matching timed out for artist: JuliáN ÁVila (took 22.5s, threshold: 15s)
+2024-12-21 15:45:45,303 - PlexMusicMatcher - INFO - Got result despite timeout for: JuliáN ÁVila
+2024-12-21 15:46:15,515 - PlexMusicMatcher - WARNING - Matching timed out for artist: L*o*J (took 22.5s, threshold: 15s)
+2024-12-21 15:46:15,516 - PlexMusicMatcher - INFO - Got result despite timeout for: L*o*J
+2024-12-21 15:46:45,296 - PlexMusicMatcher - WARNING - Matching timed out for artist: LudjixBoyz (took 22.2s, threshold: 15s)
+2024-12-21 15:46:45,297 - PlexMusicMatcher - INFO - Got result despite timeout for: LudjixBoyz
+2024-12-21 15:47:15,388 - PlexMusicMatcher - WARNING - Matching timed out for artist: Meditation Loopable Sounds (took 22.1s, threshold: 15s)
+2024-12-21 15:47:15,389 - PlexMusicMatcher - INFO - Got result despite timeout for: Meditation Loopable Sounds
+2024-12-21 15:47:45,337 - PlexMusicMatcher - WARNING - Matching timed out for artist: Mxverick (took 22.7s, threshold: 15s)
+2024-12-21 15:47:45,338 - PlexMusicMatcher - INFO - Got result despite timeout for: Mxverick
+2024-12-21 15:48:15,327 - PlexMusicMatcher - WARNING - Matching timed out for artist: Odecityfire (took 22.6s, threshold: 15s)
+2024-12-21 15:48:15,328 - PlexMusicMatcher - INFO - Got result despite timeout for: Odecityfire
+2024-12-21 15:48:45,417 - PlexMusicMatcher - WARNING - Matching timed out for artist: Pr!ce (took 22.5s, threshold: 15s)
+2024-12-21 15:48:45,418 - PlexMusicMatcher - INFO - Got result despite timeout for: Pr!ce
+2024-12-21 15:49:15,435 - PlexMusicMatcher - WARNING - Matching timed out for artist: She Has A Cold Cold Heart (took 22.6s, threshold: 15s)
+2024-12-21 15:49:15,435 - PlexMusicMatcher - INFO - Got result despite timeout for: She Has A Cold Cold Heart
+2024-12-21 15:49:45,368 - PlexMusicMatcher - WARNING - Matching timed out for artist: Static Garden (took 22.3s, threshold: 15s)
+2024-12-21 15:49:45,368 - PlexMusicMatcher - INFO - Got result despite timeout for: Static Garden
+2024-12-21 15:50:15,356 - PlexMusicMatcher - WARNING - Matching timed out for artist: Tiki Taka (took 22.5s, threshold: 15s)
+2024-12-21 15:50:15,356 - PlexMusicMatcher - INFO - Got result despite timeout for: Tiki Taka
+2024-12-21 15:50:45,328 - PlexMusicMatcher - WARNING - Matching timed out for artist: Will Butler vs The Knocks (took 22.1s, threshold: 15s)
+2024-12-21 15:50:45,329 - PlexMusicMatcher - INFO - Got result despite timeout for: Will Butler vs The Knocks
+2024-12-21 15:51:15,403 - PlexMusicMatcher - WARNING - Matching timed out for artist: ХЛЕБ (took 23.1s, threshold: 15s)
+2024-12-21 15:51:15,403 - PlexMusicMatcher - INFO - Got result despite timeout for: ХЛЕБ
+2024-12-21 15:51:17,259 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 15:51:17,259 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 15:51:17,259 - PlexMusicMatcher - INFO - Automatic matches: 513 (98.7%)
+2024-12-21 15:51:17,259 - PlexMusicMatcher - INFO - Needs review: 6 (1.2%)
+2024-12-21 15:51:17,259 - PlexMusicMatcher - INFO - No matches found: 1 (0.2%)
+2024-12-21 15:51:17,260 - PlexMusicMatcher - INFO - 
+Automatic Matches:
+2024-12-21 15:51:17,260 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 15:51:17,260 - PlexMusicMatcher - INFO - 
+Match 1:
+2024-12-21 15:51:17,260 - PlexMusicMatcher - INFO - Plex Artist: 5hags
+Spotify Match: 5hags
+Confidence: 100.00%
+Match Type: exact
+Popularity: 4/100
+2024-12-21 15:51:17,260 - PlexMusicMatcher - INFO - 
+Match 2:
+2024-12-21 15:51:17,261 - PlexMusicMatcher - INFO - Plex Artist: 7-Pm
+Spotify Match: 7-Pm
+Confidence: 100.00%
+Match Type: exact
+Popularity: 5/100
+2024-12-21 15:51:17,261 - PlexMusicMatcher - INFO - 
+Match 3:
+2024-12-21 15:51:17,261 - PlexMusicMatcher - INFO - Plex Artist: 7XL
+Spotify Match: 7XL
+Confidence: 100.00%
+Match Type: exact
+Popularity: 4/100
+
+Alternative matches:
+  1. 7XL (Popularity: 0/100)
+2024-12-21 15:51:17,262 - PlexMusicMatcher - INFO - 
+Match 4:
+2024-12-21 15:51:17,262 - PlexMusicMatcher - INFO - Plex Artist: 98.Morelo
+Spotify Match: 98.Morelo
+Confidence: 100.00%
+Match Type: exact
+Popularity: 0/100
+
+Alternative matches:
+  1. 98.morelo (Popularity: 11/100)
+2024-12-21 15:51:17,262 - PlexMusicMatcher - INFO - 
+Match 5:
+2024-12-21 15:51:17,263 - PlexMusicMatcher - INFO - Plex Artist: Aaron Doh
+Spotify Match: Aaron Doh
+Confidence: 100.00%
+Match Type: exact
+Popularity: 17/100
+2024-12-21 15:51:17,263 - PlexMusicMatcher - INFO - 
+Matches Needing Review:
+2024-12-21 15:51:17,263 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 15:51:17,263 - PlexMusicMatcher - INFO - 
+Potential Match 1:
+2024-12-21 15:51:17,263 - PlexMusicMatcher - INFO - Plex Artist: AmusicalSomebody
+Spotify Match: Adam Pascal
+Confidence: 59.64%
+Match Type: fuzzy
+Popularity: 52/100
+Genres: broadway, hollywood, show tunes
+
+Alternative matches:
+  1. Amick Byram (Popularity: 43/100)
+  2. Alice Lee (Popularity: 56/100)
+  3. Christy Altomare (Popularity: 55/100)
+  4. Anna Lea (Popularity: 62/100)
+2024-12-21 15:51:17,263 - PlexMusicMatcher - INFO - 
+Potential Match 2:
+2024-12-21 15:51:17,265 - PlexMusicMatcher - INFO - Plex Artist: DJ HASAN THE MONEY SCOUT
+Spotify Match: DJ Money Fresh
+Confidence: 64.63%
+Match Type: fuzzy
+Popularity: 20/100
+Genres: bounce
+
+Alternative matches:
+  1. Dj Marc Money (Popularity: 8/100)
+  2. DJ C Money (Popularity: 11/100)
+  3. DJ Crashout (Popularity: 20/100)
+  4. DJ HASAN IRSAN (Popularity: 2/100)
+2024-12-21 15:51:17,265 - PlexMusicMatcher - INFO - 
+Potential Match 3:
+2024-12-21 15:51:17,266 - PlexMusicMatcher - INFO - Plex Artist: Malone Alone
+Spotify Match: SUMMER ALONE
+Confidence: 78.57%
+Match Type: fuzzy
+Popularity: 44/100
+
+Alternative matches:
+  1. Malone (Popularity: 14/100)
+  2. Malone (Popularity: 13/100)
+  3. alone (Popularity: 44/100)
+  4. Malóne (Popularity: 53/100)
+2024-12-21 15:51:17,266 - PlexMusicMatcher - INFO - 
+Potential Match 4:
+2024-12-21 15:51:17,266 - PlexMusicMatcher - INFO - Plex Artist: MGXTXM
+Spotify Match: MXMS
+Confidence: 73.20%
+Match Type: fuzzy
+Popularity: 32/100
+Genres: dark pop, la pop
+
+Alternative matches:
+  1. MXTZ (Popularity: 50/100)
+  2. MXRGX (Popularity: 41/100)
+  3. MxMxM (Popularity: 30/100)
+  4. MXPEX (Popularity: 42/100)
+2024-12-21 15:51:17,267 - PlexMusicMatcher - INFO - 
+Potential Match 5:
+2024-12-21 15:51:17,268 - PlexMusicMatcher - INFO - Plex Artist: Nadzieja Nowak
+Spotify Match: Nadija Lapina
+Confidence: 78.27%
+Match Type: fuzzy
+Popularity: 41/100
+
+Alternative matches:
+  1. Paweł Nowak (Popularity: 31/100)
+  2. Aleksy Nowak (Popularity: 50/100)
+  3. Antonina Nowacka (Popularity: 22/100)
+  4. Nadia Tarnawsky (Popularity: 10/100)
+2024-12-21 15:51:17,268 - PlexMusicMatcher - INFO - 
+No Matches Found For:
+2024-12-21 15:51:17,268 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 15:51:17,269 - PlexMusicMatcher - INFO - 1. 利尔·伊泽
+2024-12-21 15:51:17,269 - PlexMusicMatcher - INFO - 
+Processing Summary:
+2024-12-21 15:51:17,269 - PlexMusicMatcher - INFO - ==================================================
+2024-12-21 15:51:17,269 - PlexMusicMatcher - INFO - Total artists processed: 520
+2024-12-21 15:51:17,269 - PlexMusicMatcher - INFO - Automatic matches: 513 (98.7%)
+2024-12-21 15:51:17,269 - PlexMusicMatcher - INFO - Needs review: 6 (1.2%)
+2024-12-21 15:51:17,270 - PlexMusicMatcher - INFO - No matches found: 1 (0.2%)
+2024-12-21 15:51:17,270 - PlexMusicMatcher - INFO - 
+Found 513 automatic matches.
+2024-12-21 15:51:17,270 - PlexMusicMatcher - INFO - Would you like to update these artists in Plex now? (y/n)
+2024-12-21 15:52:33,652 - PlexMusicMatcher - ERROR - Error fetching artist by ID 39Os5UhaIBWsVGd8DlRgCp: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,653 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for 5hags
+2024-12-21 15:52:33,653 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3UUJSY5N4QAeeEKvauP214: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,653 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for 7-Pm
+2024-12-21 15:52:33,653 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2sk6FdXRydcKmjoAFMooOb: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,654 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for 7XL
+2024-12-21 15:52:33,654 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3u35KE3uL00SkUXmCwIhCg: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,654 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for 98.Morelo
+2024-12-21 15:52:33,654 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1pp07SnNGdDFf6OBA2Z3ER: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,654 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Aaron Doh
+2024-12-21 15:52:33,654 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0rqOezPgz9uRXKBEiQ1XEn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,655 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Aballoon
+2024-12-21 15:52:33,655 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4l0cpIzwmZZWdC5WJfhrW2: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,655 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Acedox
+2024-12-21 15:52:33,655 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5nlnJcIMLd6HI8VwLqksmr: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,656 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Adam Counts
+2024-12-21 15:52:33,656 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7bOqXP1vcnriCn3qfH0Naj: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,656 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Adam Don't Die
+2024-12-21 15:52:33,656 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0wmkhc94gBlA7Nbc8sf9ix: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,657 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Addison Tripp
+2024-12-21 15:52:33,657 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6RzQZCS8ASfdft71WxsL9N: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,657 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Adeki
+2024-12-21 15:52:33,657 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0SsQ0vi2SKBYMJFcc0vRuW: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,657 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Adéla Zouharová
+2024-12-21 15:52:33,658 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1pLkbiJJ4qhYuj00z3CofF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,658 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Adrian Rooz
+2024-12-21 15:52:33,658 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0hAEHgKtmvKFmUpYhwIxNG: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,658 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Adrien M
+2024-12-21 15:52:33,658 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6tdK39y9NpQj4krD5nahDU: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,659 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Aeora
+2024-12-21 15:52:33,659 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2h2hbcBVEkQgSdVQR0ry9M: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,659 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for after two am
+2024-12-21 15:52:33,659 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4qzaPY5Rr4AFAkktsffgx0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,659 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Agent 9ine
+2024-12-21 15:52:33,659 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0VsOqfcU6yfPYRb4GtU6Dz: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,660 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Aging Aeroplanes
+2024-12-21 15:52:33,660 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3ORadKGfvLXgYQ8xv5D2jV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,660 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for AIMMIA
+2024-12-21 15:52:33,660 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5FJYESoi3Dar09KIPc57do: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,661 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for AKA (AUS)
+2024-12-21 15:52:33,661 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1YPbLR5feecKwPHhujIvGQ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,661 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Akhmedov
+2024-12-21 15:52:33,661 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1mo21tWBeVI59eoNJDL2Ej: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,661 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for AkkiraVH
+2024-12-21 15:52:33,662 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6YKwOkWRVFHvTjSnCvkXnN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,662 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alain Richaud
+2024-12-21 15:52:33,662 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1pGRLPLRhXKOxLRJIBwtqD: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,663 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alemu
+2024-12-21 15:52:33,663 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3q2E6Z1NOEOh3fwfP77bfV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,663 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alex Lambrino
+2024-12-21 15:52:33,663 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5PqUQf0F5LWlspjTyUfTJq: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,663 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alex Math
+2024-12-21 15:52:33,664 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5ZlbjdBQXlkRgyDuPLy74f: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,664 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alfa-X
+2024-12-21 15:52:33,664 - PlexMusicMatcher - ERROR - Error fetching artist by ID 67zunrrbG9OvEity9qarxd: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,664 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alkmeister
+2024-12-21 15:52:33,664 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7LpAE1RBzIzhUesv0DYDwT: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,665 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for All Oc's
+2024-12-21 15:52:33,665 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5bCrYdtRAEXwdifTPeFUf8: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,665 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alle Groepen
+2024-12-21 15:52:33,665 - PlexMusicMatcher - ERROR - Error fetching artist by ID 69wxka6JqmMSB5okEEcE1z: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,665 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alligatorz
+2024-12-21 15:52:33,665 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Q4ziXLNeSVK2yKtb8y9G5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,666 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ally Barron
+2024-12-21 15:52:33,666 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5ORXJcTa9T85QBcj9S16O8: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,666 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Alphabet Kids
+2024-12-21 15:52:33,666 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6OOxVfD4C5LQ4Il5NmLcWv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,666 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ALSO ASTIR
+2024-12-21 15:52:33,666 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2y8v9yoCODFfS27u4s3o5k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,666 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Álvaro Iglesias
+2024-12-21 15:52:33,666 - PlexMusicMatcher - ERROR - Error fetching artist by ID 58wnteK8N2h0jgEnGuS4yV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,667 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Amber Spill
+2024-12-21 15:52:33,667 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1mvi9DNlanygEPWcr366Kw: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,667 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Amir Mardassi
+2024-12-21 15:52:33,667 - PlexMusicMatcher - ERROR - Error fetching artist by ID 49EZwUuloiu4jkhNRYpTUj: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,667 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Annëto
+2024-12-21 15:52:33,667 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1GZ7usuOguq1obg0YHjy2S: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,667 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Antoine Pepe
+2024-12-21 15:52:33,668 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6fmrOl8KTYJCx3G0nlcSrz: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,668 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Anuj Rastogi
+2024-12-21 15:52:33,668 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1fd3fmwlhrDl2U5wbbPQYN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,668 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Apashe, CloZee
+2024-12-21 15:52:33,668 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2F5h2SNluMoGRPAeBh2068: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,669 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Aquarium Haze
+2024-12-21 15:52:33,669 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7k9HN0kzXSk0YYtRZYokZn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,669 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for AR Jiggy
+2024-12-21 15:52:33,669 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3pSRJvRpZNqgVW89jaW9yZ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,669 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ardigo Menes
+2024-12-21 15:52:33,670 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2neqY2NasTxVPVXPSSBkKA: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,670 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Arfy Wild
+2024-12-21 15:52:33,670 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6pq69HpH8DJ7BHGibWrYc2: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,670 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ari MT
+2024-12-21 15:52:33,670 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1U5wCWmMFLIUAni8o2EgJK: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,671 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Arup Das
+2024-12-21 15:52:33,671 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4RQvjWs8YP6D9tOaaDIVo1: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,671 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Aryll Fae
+2024-12-21 15:52:33,671 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0EUqhBkX8Yj7ls9bgSRnAU: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,671 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ashadá
+2024-12-21 15:52:33,671 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4hN3QFUZ6g9QKTvy5TI0qU: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,672 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Asierhans
+2024-12-21 15:52:33,672 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4YljeX0AylsEqhg3dBuDiL: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,672 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Atrym
+2024-12-21 15:52:33,672 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5gn3ab5vEpXxw0Oi2xEZvz: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,673 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Augan
+2024-12-21 15:52:33,673 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7xx3oCh7EkiUdZsF2drXpp: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,673 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Baclash
+2024-12-21 15:52:33,673 - PlexMusicMatcher - ERROR - Error fetching artist by ID 763vpvxNdyRAFqwPyARM4M: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,673 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bari Bux
+2024-12-21 15:52:33,674 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5vJS6997rT8s5ZayDAA16C: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,674 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bass Smugglers
+2024-12-21 15:52:33,674 - PlexMusicMatcher - ERROR - Error fetching artist by ID 65Iv2jjN6vAMDHHlrJWJX6: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,674 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Batıl İtikat
+2024-12-21 15:52:33,674 - PlexMusicMatcher - ERROR - Error fetching artist by ID 052mrlxLPCjoDKJ7Y9nE2Z: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,674 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bedtimes
+2024-12-21 15:52:33,674 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1aXtipW3kMZJvNVVZ68b21: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,675 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bellwoods (feat. Odessa)
+2024-12-21 15:52:33,675 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3OfpsUviSQuFD0bRyofj8V: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,675 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ben Goudie-Park
+2024-12-21 15:52:33,675 - PlexMusicMatcher - ERROR - Error fetching artist by ID 72mf2uJs1yGDLBj7OUZoQx: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,676 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Big Shot Mc
+2024-12-21 15:52:33,676 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0aM0QW08dGpkpARzgCq4Cg: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,676 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for BIGVIZA
+2024-12-21 15:52:33,676 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3abRKajGbb3kLMy9AWzfMA: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,676 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for BIJOU, Dr. Fresch, Willy Northpole
+2024-12-21 15:52:33,676 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7uu5vW3QB3BuhiemWp76yM: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,677 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Blackmahal
+2024-12-21 15:52:33,677 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6T3gZgGAQkMgWLUMr8HVsL: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,677 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Blakkamoore
+2024-12-21 15:52:33,677 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6TW9Zc8SDwtueBDeJf6TYY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,677 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for BLAOW!
+2024-12-21 15:52:33,677 - PlexMusicMatcher - ERROR - Error fetching artist by ID 14nuxkCmtQBF2SJfwl6vLu: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,678 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bliss Station
+2024-12-21 15:52:33,678 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0SGnEJ4RcZhDRKmV7wCePy: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,678 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Blue Lime
+2024-12-21 15:52:33,678 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1I7A8xBGgo3BLIWoG8B91h: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,678 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bluma Petersen
+2024-12-21 15:52:33,679 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3itmbTKEe0jxP7ndPo54hN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,679 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bobby Kid
+2024-12-21 15:52:33,679 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0z0WIcFmz8Ongg6uNrHB5L: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,679 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bollenti Spiriti
+2024-12-21 15:52:33,679 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3EKbViNO1D113QbF7fGTzd: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,680 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Bounty Hunter from Outer Space
+2024-12-21 15:52:33,680 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1GKIlPFdcewHtpDVCQ8zmJ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,680 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Brray, Anuel AA, Chencho Corleone, JHAYCO, Ryan Castro
+2024-12-21 15:52:33,680 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6aAeniV0Z6RDqi6UBUrB0D: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,680 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for C-Trip
+2024-12-21 15:52:33,680 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4JQqho4fdjBm2IOzs1cwIK: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,681 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Calm Soundscapes
+2024-12-21 15:52:33,681 - PlexMusicMatcher - ERROR - Error fetching artist by ID 60vwW7ohnd3guQQlLRri9Y: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,681 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Calvin King
+2024-12-21 15:52:33,681 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7t9afRFax4ByKMkrhejMwd: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,681 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Cam Steen
+2024-12-21 15:52:33,681 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4SuUIMrRCRGq38QUiXCpuv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,682 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Camila Orantes
+2024-12-21 15:52:33,682 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2hY4VfJgrFytYv3vClZ9rA: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,682 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Carla Mauri
+2024-12-21 15:52:33,682 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2AmIbvKGbPqb5vB6e5OoP1: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,682 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for The Cast of Mary Poppins
+2024-12-21 15:52:33,682 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2vsLQTJyfcCFwtLJ7xlQw9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,683 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Cecile seraud
+2024-12-21 15:52:33,683 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7Isargq7sZZ8hTbIx9yNsi: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,683 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Cecy Leos
+2024-12-21 15:52:33,683 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5BFEr8AvjXPRGzf1hZyel3: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,683 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Cellz
+2024-12-21 15:52:33,684 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4V5fq7FGDXDoQKhjF9oRap: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,684 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Charlie Sweet
+2024-12-21 15:52:33,684 - PlexMusicMatcher - ERROR - Error fetching artist by ID 746nA9NSKsqBDRk343UtkE: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,684 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Chromonicci
+2024-12-21 15:52:33,684 - PlexMusicMatcher - ERROR - Error fetching artist by ID 27Gv2HpDgYmVRMqh0JdFeZ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,684 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Chucky Treez
+2024-12-21 15:52:33,685 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2qmnnOcCrlxJjgZOQcFbjH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,685 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Chullo
+2024-12-21 15:52:33,685 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0wijYZpBakAjUjdRyTDD7V: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,685 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for citrulinq
+2024-12-21 15:52:33,685 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0L6vF5XoK9FUt6VwbCq9l8: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,686 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Classical Music: 50 of the Best
+2024-12-21 15:52:33,686 - PlexMusicMatcher - ERROR - Error fetching artist by ID 37LAzAXVf0WIikReOsy2LU: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,686 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Click Refresh
+2024-12-21 15:52:33,686 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2KMHaahQSnMmgIzC8Naxkj: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,686 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for CLO.FM
+2024-12-21 15:52:33,686 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2fGBzoEzDepN5OB8m0oQQA: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,687 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for CobraK
+2024-12-21 15:52:33,687 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4SXKAjs2uxonZB8OEZt8hm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,687 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Compass: Mexican Institute Of Sound + Toy Selectah
+2024-12-21 15:52:33,687 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5B9I5tCq7x0rBfrlyvotS7: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,687 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Curci and Mick Jenkins
+2024-12-21 15:52:33,687 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2p66geFcUFR9oKJfxgbFp3: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,688 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Cuyama
+2024-12-21 15:52:33,688 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3rUd35NNDTP0swf9r50WFD: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,688 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Cyn Tremeau
+2024-12-21 15:52:33,688 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4tbllmCAh0qP0p2AeBoHQ1: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,688 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Czeluść (Jutrø & Kosa)
+2024-12-21 15:52:33,689 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5KNINcHEorWMCdLj2Vm9ui: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,689 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for D.A
+2024-12-21 15:52:33,689 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5n0ERCZQcYg2J6PfjPsymQ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,689 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Da.oW
+2024-12-21 15:52:33,689 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7oJoc76R3JMv7dZhxgi7zD: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,690 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dan Maus
+2024-12-21 15:52:33,690 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1Rquf4q49d5uiFhW2gEcfm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,690 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dara Smith-MacDonald
+2024-12-21 15:52:33,690 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3CQOBfKlh4KkHk3l2ETEZI: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,691 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for The Darol Anger / Mike Marshall Band
+2024-12-21 15:52:33,691 - PlexMusicMatcher - ERROR - Error fetching artist by ID 56Qrb0lNslrU4kja7Uylk4: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,691 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for David Krutten
+2024-12-21 15:52:33,691 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6nhEcP9sIqaoQ6hM5R55IB: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,691 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for David Starfire, Arula
+2024-12-21 15:52:33,692 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0eSMLmP1Q5oT58qoHYV4FY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,692 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for David Yandrin
+2024-12-21 15:52:33,692 - PlexMusicMatcher - ERROR - Error fetching artist by ID 76f3kykMC0OdbzXU02T1QV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,692 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Davuiside
+2024-12-21 15:52:33,692 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4lpKeKXJYkglSWyEmnOF7O: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,692 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DE'WAYNE
+2024-12-21 15:52:33,693 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2CV829PespIwQonuSPIClv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,693 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dea Magna
+2024-12-21 15:52:33,693 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7pzTQq05ndeHanAmVyFEGo: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,693 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DECK E
+2024-12-21 15:52:33,693 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6MbBIXtk1LH1xyNR5OToQU: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,693 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Deka Sul
+2024-12-21 15:52:33,694 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3KntxbSQEIuXFl4OwsQskL: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,694 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Denton Thrift
+2024-12-21 15:52:33,694 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6oitcP0sIpWA5xVVYlNk4C: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,694 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Desiree Mishoe
+2024-12-21 15:52:33,694 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1Z1MedqFUlxM3OHqdHK7mx: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,695 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Diastrata
+2024-12-21 15:52:33,695 - PlexMusicMatcher - ERROR - Error fetching artist by ID 56m25Ot58GnKosZoB220kB: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,695 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Digital Moss
+2024-12-21 15:52:33,695 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5R3Hr2cnCCjt220Jmt2xLf: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,695 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dillon Francis & TV Noise
+2024-12-21 15:52:33,695 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2HkAI0YrEcgoR8QdaURqhO: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,696 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dimitri Vegas & Like Mike & Diplo
+2024-12-21 15:52:33,696 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3l3I124geXK51X0JTT0Dzw: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,696 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dinie
+2024-12-21 15:52:33,696 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5fMUXHkw8R8eOP2RNVYEZX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,696 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Diplo & Autoerotique
+2024-12-21 15:52:33,696 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6RSpVIr3xQBbNld2ZsVOLY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,697 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dirty Nick
+2024-12-21 15:52:33,697 - PlexMusicMatcher - ERROR - Error fetching artist by ID 03VSk6CUqfOc6gViP61xtn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,697 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dispak
+2024-12-21 15:52:33,697 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2atwG2TdLJ99UpJVxXi3E4: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,697 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dizaro
+2024-12-21 15:52:33,697 - PlexMusicMatcher - ERROR - Error fetching artist by ID 760vjEPfex1nbkDIcDk9fY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,698 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DJ Caldas
+2024-12-21 15:52:33,698 - PlexMusicMatcher - ERROR - Error fetching artist by ID 10D6t0yfkHeNCdUT4JDTnQ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,698 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DJ Glitter
+2024-12-21 15:52:33,698 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6gBmUpKvNYtnQTSLK5vwS5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,698 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DJ Rush & The Southern
+2024-12-21 15:52:33,699 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6gBmUpKvNYtnQTSLK5vwS5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,699 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DJ Rush, Lester Fitzpatrick
+2024-12-21 15:52:33,699 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5DVQei8fNfwTOxUb2ZmJOs: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,699 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dj Sorce
+2024-12-21 15:52:33,699 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6vjAwcOZNHp71G8mYs2yUg: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,699 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DJ ZeeZee
+2024-12-21 15:52:33,699 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2qth8kArvrLso06HiQZdEO: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,700 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DjDarkShadow
+2024-12-21 15:52:33,700 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4UG4ctsUmccpIt6QILqwAV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,700 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for DOLINOV
+2024-12-21 15:52:33,700 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6jQcBp0ETYA8uTacmQmztj: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,700 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Don KrookShank
+2024-12-21 15:52:33,700 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1vikktFhCp72oGjIAnlQnm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,701 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dope By Association
+2024-12-21 15:52:33,701 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7vlupmiQF3syj6jYwMVYQu: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,701 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dotan Negrin + Prismatic Mantis
+2024-12-21 15:52:33,701 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1htHgbGwgCWJBfGiQwcRqC: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,701 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dr. Fresch & BIJOU
+2024-12-21 15:52:33,701 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7qqDJfDYrZZgXR8I5GNY0P: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,702 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for dreambody
+2024-12-21 15:52:33,702 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2FMzNPlvUdrEiJOWaRwSNL: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,702 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dreamy Thoughts
+2024-12-21 15:52:33,702 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5NlawbBDGkH8W9SblamHZO: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,702 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Drics
+2024-12-21 15:52:33,702 - PlexMusicMatcher - ERROR - Error fetching artist by ID 31Ai45YFkzvuP30R2HBDQy: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,702 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Drifting Phonetics
+2024-12-21 15:52:33,704 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5lXN6Mq14P9OaKqkP7Gfr9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,704 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Drum'n KI
+2024-12-21 15:52:33,704 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3QcJwKyZRPKmz1evT92DPA: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,704 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dub Phizix, Skittles
+2024-12-21 15:52:33,704 - PlexMusicMatcher - ERROR - Error fetching artist by ID 342Q4PPpxue8CY76XNYyee: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,705 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Duy Ngoc
+2024-12-21 15:52:33,705 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3HDWwxjnxThq6N6iZ7sDK5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,705 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Dynamic De Mel
+2024-12-21 15:52:33,705 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0aEvZ9NTybl8DDSlGxJ8AW: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,705 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for earthtown
+2024-12-21 15:52:33,705 - PlexMusicMatcher - ERROR - Error fetching artist by ID 311L9difAs5Rrx0R8XdX1v: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,706 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Electronic Gems
+2024-12-21 15:52:33,706 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6ZtqLWb0Enj65XoarfniCm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,706 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Elephant Pillowed
+2024-12-21 15:52:33,706 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4FnhRuj3eKz4JXL27neoCC: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,706 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Eli Dylan
+2024-12-21 15:52:33,707 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1hyiE7AzggXMn5q2IAdPYO: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,707 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Eliija
+2024-12-21 15:52:33,708 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4fQ7G9vwE2mfl62bZ9NPaf: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,708 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Emerald Lake, Silent Child
+2024-12-21 15:52:33,708 - PlexMusicMatcher - ERROR - Error fetching artist by ID 57tLZzv7AP7MOyxBzRbUDH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,709 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Enigmanic
+2024-12-21 15:52:33,709 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5xkxvCn3rVvXymmjwSNNnN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,709 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ENMOCEAN
+2024-12-21 15:52:33,709 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6BiKSiXDrf81E21MuX40hH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,709 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Eric Sharp & Tenova
+2024-12-21 15:52:33,710 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6BiKSiXDrf81E21MuX40hH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,710 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Eric Sharp, Sir DSS
+2024-12-21 15:52:33,710 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5IH1vDVdLPp9thMaSlYmKm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,710 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Erika Ascenzo
+2024-12-21 15:52:33,710 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0Ece4RFAFNTEpYaTHZWuhe: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,711 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Es-k
+2024-12-21 15:52:33,711 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3dYgPy7idZRW4mnP9P05aK: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,711 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Essa Gante
+2024-12-21 15:52:33,711 - PlexMusicMatcher - ERROR - Error fetching artist by ID 220oi9QdUJCBS0YW8LIzqB: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,711 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Eu sou o Pi
+2024-12-21 15:52:33,711 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6ru4rJz4zP1dDMkegccVrt: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,712 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Extended Pianos
+2024-12-21 15:52:33,712 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1JK1aMUCUj9k2LWvVQnU4c: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,712 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for F3RY
+2024-12-21 15:52:33,712 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6kQPCQf0NTmbj6hwim0vkT: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,712 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for FanEOne
+2024-12-21 15:52:33,712 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5DVR0ZDBBEVkKGbEjkp5kR: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,713 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for FarLight
+2024-12-21 15:52:33,713 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0fSKCmaU7F2YprizoJdOw7: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,713 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Felix Keser
+2024-12-21 15:52:33,713 - PlexMusicMatcher - ERROR - Error fetching artist by ID 43rXMey1kWTRbnxdjaRK7s: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,713 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Flor Torres
+2024-12-21 15:52:33,714 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0sQ1wgSdRpoysgsa1VnI4G: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,714 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Foreign Beggars, Alix Perez, Eprom
+2024-12-21 15:52:33,714 - PlexMusicMatcher - ERROR - Error fetching artist by ID 58bqbgcmYuTyHDGGkHbrFH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,714 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Forward City
+2024-12-21 15:52:33,714 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5eZs1YL93qStrFtYXW0PpX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,714 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Fractal Designs
+2024-12-21 15:52:33,715 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3x13ZQ73FuR9gtiiSIsWSH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,715 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Frame (KR)
+2024-12-21 15:52:33,715 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1JXeiCPw1Pb1ykKusKKeIz: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,715 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Francis Taylor
+2024-12-21 15:52:33,715 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6WvFsI700F07ZuF5a2B9Mc: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,715 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Franssen
+2024-12-21 15:52:33,716 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6zFg1JVhHBowb8FIDUL2aO: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,716 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Freedom Sharma
+2024-12-21 15:52:33,716 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4OE8e1hzZAdy9Ah9wrn7im: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,716 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Freya Dahl
+2024-12-21 15:52:33,716 - PlexMusicMatcher - ERROR - Error fetching artist by ID 06jf0PAXuNYHOHJPoENACd: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,716 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Friends With Animals
+2024-12-21 15:52:33,717 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2qzogTJMX1UvUPA39DYAgB: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,717 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Full Presence
+2024-12-21 15:52:33,717 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6nkH8Y9TfO3xr8tJMrRSqn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,717 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Future Bubblers
+2024-12-21 15:52:33,717 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0d6aO1iQVWyxsN8UHfmHjm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,717 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for The Galactic Effect
+2024-12-21 15:52:33,717 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3PaPtxb7MMqPJ3FU8BbQUj: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,718 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Galter
+2024-12-21 15:52:33,718 - PlexMusicMatcher - ERROR - Error fetching artist by ID 33FChbguJKySyP5Spe5jiN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,718 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Genevieve Goings
+2024-12-21 15:52:33,718 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3fa0KHgF875Ni0ITnN2X2N: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,718 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Gianluca Misiti
+2024-12-21 15:52:33,719 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4fxd5Ee7UefO4CUXgwJ7IP: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,719 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Giveon
+2024-12-21 15:52:33,719 - PlexMusicMatcher - ERROR - Error fetching artist by ID 31YnKHfnVMd1GQ3uF17f24: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,719 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Gökay Ekin
+2024-12-21 15:52:33,719 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6ImUn600ZnHXjWRuYDMh4H: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,719 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Gold and Glory
+2024-12-21 15:52:33,720 - PlexMusicMatcher - ERROR - Error fetching artist by ID 63zpgua95FrMeht9L50MZf: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,720 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for The Golden Islands
+2024-12-21 15:52:33,720 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3gOQ7SMCNlzC01NNnoWj3G: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,720 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Gonzza
+2024-12-21 15:52:33,720 - PlexMusicMatcher - ERROR - Error fetching artist by ID 69zkVA1W5J06u0FZDfwdSe: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,720 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for goodlife
+2024-12-21 15:52:33,721 - PlexMusicMatcher - ERROR - Error fetching artist by ID 07EafuRJGR8zatcaf132UV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,721 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Goodwill & Ron Carroll
+2024-12-21 15:52:33,721 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2RyViRPiXf7wTsacwV34mt: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,721 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Graham Malice
+2024-12-21 15:52:33,721 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0jbFsKW6Gp1PVUQERc5nxb: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,721 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Green Falcon
+2024-12-21 15:52:33,722 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6UrQECDVf7T9u441Q4lHq7: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,722 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for The Grizz
+2024-12-21 15:52:33,722 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6tET5ef9JkNDTJ4yBNbDFA: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,722 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Gu is 9
+2024-12-21 15:52:33,722 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4avskaVxtO9UH0PvrC7Di9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,723 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Guillaume Defradat
+2024-12-21 15:52:33,723 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6mP0VBR01Vp9m4I30YmSXG: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,723 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for GURSKIY
+2024-12-21 15:52:33,723 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2BTb9bZeph6qXO5EmjVbbm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,723 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for HAELIUM
+2024-12-21 15:52:33,724 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3P25FjtsSEJrFx9EDkCJgf: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,724 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for half.cool
+2024-12-21 15:52:33,724 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0lMiEQ2kYIGuFLR0Hdj8c7: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,725 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Hannes Holm
+2024-12-21 15:52:33,725 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1sj7PLzt3bEoD1HF0URsci: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,725 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Harley Maxwell
+2024-12-21 15:52:33,725 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7aUSp5cOZlwEtd5zPC795k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,725 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haywyre, Grabbitz
+2024-12-21 15:52:33,725 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7aUSp5cOZlwEtd5zPC795k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,726 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haywyre, Koste
+2024-12-21 15:52:33,726 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7aUSp5cOZlwEtd5zPC795k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,726 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haywyre, Krafty Kuts
+2024-12-21 15:52:33,726 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7aUSp5cOZlwEtd5zPC795k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,726 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haywyre, Prismo
+2024-12-21 15:52:33,726 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7aUSp5cOZlwEtd5zPC795k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,726 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haywyre, Rhodz
+2024-12-21 15:52:33,727 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7aUSp5cOZlwEtd5zPC795k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,727 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haywyre, Slow Magic
+2024-12-21 15:52:33,727 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7aUSp5cOZlwEtd5zPC795k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,727 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haywyre, The Funk Hunters, Kotek
+2024-12-21 15:52:33,727 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7aUSp5cOZlwEtd5zPC795k: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,727 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haywyre, Vorso
+2024-12-21 15:52:33,727 - PlexMusicMatcher - ERROR - Error fetching artist by ID 54D5XbQHKDCoZXn7lX1U7i: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,728 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Haza
+2024-12-21 15:52:33,728 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5hF3DarR5HQ40dXiBNF8sD: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,728 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Hazur
+2024-12-21 15:52:33,728 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4Z39bNE8YlLs57YzOp6bWY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,728 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Heriela
+2024-12-21 15:52:33,728 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3EwGLc40naFP5DNfWFTqBA: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,729 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for herr ulrich
+2024-12-21 15:52:33,729 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3NMfMCA11Xo7RUc91o64Og: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,729 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Hideyuki Hashimoto
+2024-12-21 15:52:33,729 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5KuuNGYTUTokLerXMNYCGL: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,729 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ho99o9, Ghostemane
+2024-12-21 15:52:33,729 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4zvwdbxIlaCV8jsYkUQeqQ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,730 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Hombrejugo
+2024-12-21 15:52:33,730 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5azT6bsc6KqBU1TdFLQVzc: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,730 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for HOODMAFIA
+2024-12-21 15:52:33,730 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6M9hDiIR4mcwjZzTgHrdWA: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,730 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for House Call
+2024-12-21 15:52:33,731 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3koHmmPvpgZWHcVmK8AKDq: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,731 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for HVDES, ATLAST
+2024-12-21 15:52:33,731 - PlexMusicMatcher - ERROR - Error fetching artist by ID 35p9IzVzUe7tMRcWhdBfxd: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,731 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Hypebeast
+2024-12-21 15:52:33,731 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1UGJcpIuw31ctYgrlkOX5f: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,731 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Hypetrak
+2024-12-21 15:52:33,732 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1QahLaqUVSJGTfKCJQCXF6: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,732 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Hypixi !!!
+2024-12-21 15:52:33,732 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0qQbBD148C8i1xIvpOh7ak: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,732 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ian Edson
+2024-12-21 15:52:33,732 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0SeqMrA9uCC9njxzQkUG1h: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,732 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for idokay
+2024-12-21 15:52:33,732 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4D1Rps8LXhJwzRK8crFYIG: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,733 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ILUIS
+2024-12-21 15:52:33,733 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5GPfmRVylQ2lRh4S3cyT0x: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,733 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ilysilence
+2024-12-21 15:52:33,733 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7M1B3XuoH9mzHLcK0ij0Ox: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,733 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for im horrible at music lol
+2024-12-21 15:52:33,733 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6Nlyt1MUEBe1jN0h7F4hn0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,734 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Indeb
+2024-12-21 15:52:33,734 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4rJta2GdI52yhJceEzXvhQ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,734 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for INTERNATIONAL WAV
+2024-12-21 15:52:33,734 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7beQGTtyQ7Wvvs2YJa563C: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,734 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for J. Keuz
+2024-12-21 15:52:33,735 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5pTAtfO5NRMgj3zsT721WO: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,735 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jackal, Dr. Fresch
+2024-12-21 15:52:33,735 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7jxftt8GHKv53poJAgC3Wc: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,735 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for jahjaylee & Justin Jay
+2024-12-21 15:52:33,735 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6iTFxnPZmX0HdWmL73irIa: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,735 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jaja Bu
+2024-12-21 15:52:33,735 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0VzXnkUTwKDYznbgEvn3Ca: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,736 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jam'addict
+2024-12-21 15:52:33,736 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6VjLCTJVlfeXk4Sm34Qhrc: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,736 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for JamesOnThaTrack
+2024-12-21 15:52:33,736 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1FuIJwkHRMtxio5iaQt5wO: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,736 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jamine Shakur
+2024-12-21 15:52:33,736 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1VPqh7tyQEXc2W8KBCRPMv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,737 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jäverling ◇ von Euler
+2024-12-21 15:52:33,737 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5qeFqjJrj6W7KiBBBAVVjx: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,737 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jayton Lening
+2024-12-21 15:52:33,737 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6aukEUPEJtibUYvxtRayEn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,737 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for JDee7
+2024-12-21 15:52:33,737 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3ti4KNYV5eWXahr3LSnDSx: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,738 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jelie
+2024-12-21 15:52:33,738 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0uoKU7asn9GL0o9DA8vYKa: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,738 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jenessa Andrea
+2024-12-21 15:52:33,738 - PlexMusicMatcher - ERROR - Error fetching artist by ID 652vvbckA3Jxl6xbfAqPJY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,739 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jess Gallo & Samson
+2024-12-21 15:52:33,739 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5s3CNtHdV45GUjXzrKMtd2: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,739 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for The Jesse Lees
+2024-12-21 15:52:33,739 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6lgnqogFnOl4ZxZy1neqZD: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,740 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jesus Morales, Philharmonia Bulgarica, Jaime Morales
+2024-12-21 15:52:33,740 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2J8ER5ci3h4FcHxx4lwpvG: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,740 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for John Alone
+2024-12-21 15:52:33,740 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6DMqiwls8QbNZVmvzCv9kN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,740 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for John Edge
+2024-12-21 15:52:33,741 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5OVQk0VfeL0da40pcX2xuX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,741 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Johnny Nicholson
+2024-12-21 15:52:33,741 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Iq6waFNaQnjLjEjp2l3nc: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,741 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for JoJo Siwa (Kids)
+2024-12-21 15:52:33,742 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4BsCTKrDxXRcjXIR2XDxW4: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,742 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Joke Army
+2024-12-21 15:52:33,742 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6VFndHaC6JUeRiwrVQyDdv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,742 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jonas Kopp, Capracara, Halogen
+2024-12-21 15:52:33,742 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7KpFw6HEDZ3oOEuO4x2gh9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,742 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Jotaa
+2024-12-21 15:52:33,743 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0mR4SM8yYLz8v21xpGYgTC: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,743 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Juli Giuliani
+2024-12-21 15:52:33,743 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0ZOnlwyq804oFsvBBkVUCV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,743 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for JuliáN ÁVila
+2024-12-21 15:52:33,743 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0N8vaLXpoHKPAj39B42UtF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,743 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Juvenile Delinquents
+2024-12-21 15:52:33,744 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6f4IiuKhLmRaMEHn1APz7X: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,744 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for JVera
+2024-12-21 15:52:33,744 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5Ca33ybfHnypI7zBIEsHAK: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,744 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for K.K FLOW
+2024-12-21 15:52:33,744 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7DJiupNnzTkhLPygjCaVKj: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,745 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Kállay Saunders
+2024-12-21 15:52:33,745 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6ymUJ2qWrQUuHP3mrfTxnv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,745 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Kassaii
+2024-12-21 15:52:33,745 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1PGP4PBnuMlpbsH19lbyiB: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,745 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Katmando
+2024-12-21 15:52:33,745 - PlexMusicMatcher - ERROR - Error fetching artist by ID 28XRuVBEzIpDrBjAkC7aPN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,745 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Keenan Back & Liam Back
+2024-12-21 15:52:33,746 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4N2JhWzNAPiluhKCxLBhzh: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,746 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Kelleia
+2024-12-21 15:52:33,746 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0w2tBFj30lqHTyxywKPBVg: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,746 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ketsuci
+2024-12-21 15:52:33,746 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1Wc42aAvPBQxi2CsAN2Q5z: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,746 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Kick a Dope Verse!
+2024-12-21 15:52:33,746 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0MV0YK75T6vC9k9604QRID: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,747 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Kim Nordenstierna
+2024-12-21 15:52:33,747 - PlexMusicMatcher - ERROR - Error fetching artist by ID 55VjIb8TVQFKiLtQQaivkU: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,747 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Kirkinson
+2024-12-21 15:52:33,747 - PlexMusicMatcher - ERROR - Error fetching artist by ID 28dFoZapUMK1BKUG7sEMz3: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,747 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for KL.Z
+2024-12-21 15:52:33,747 - PlexMusicMatcher - ERROR - Error fetching artist by ID 58bmzo0LQNRw3xI5DDc7cw: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,747 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Knew J
+2024-12-21 15:52:33,748 - PlexMusicMatcher - ERROR - Error fetching artist by ID 59bdbEgRgVQ34pUYVr9dL0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,748 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Knzo
+2024-12-21 15:52:33,748 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1cMMiLzq67AWRcyc95zTZk: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,748 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for kollin30
+2024-12-21 15:52:33,748 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5Da6Z6taYuywICqGUwocwu: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,748 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for KR3TURE, The Human Experience feat. Kelly Koval
+2024-12-21 15:52:33,749 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5y610H6rgLmpucEqCvPHNq: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,749 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Krabi
+2024-12-21 15:52:33,749 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1BQ3G67idRCflkxT6WOz28: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,749 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for KVN AUST
+2024-12-21 15:52:33,749 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0kedsbEm9inf3IyyzQLKj1: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,749 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for KVSHYYYK
+2024-12-21 15:52:33,750 - PlexMusicMatcher - ERROR - Error fetching artist by ID 78NhZrxm8bKiD5pUI5QRU3: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,750 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Kyle Joshua
+2024-12-21 15:52:33,750 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4wMCSvFIwFSzxFiauT1hiR: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,750 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for L-S1DE
+2024-12-21 15:52:33,750 - PlexMusicMatcher - ERROR - Error fetching artist by ID 19X4W851yGGTB4rgz61cBs: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,750 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for L'essay
+2024-12-21 15:52:33,750 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3B4U99cPW8HihTM6ld3jVX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,751 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for L*o*J
+2024-12-21 15:52:33,751 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0inbyfgIo5EiXGJOuY44Qm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,751 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lake Orchard
+2024-12-21 15:52:33,751 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6SppFn5ihgxDw7tdfthnaK: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,751 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lakewood Music
+2024-12-21 15:52:33,751 - PlexMusicMatcher - ERROR - Error fetching artist by ID 781sU1hUwd3HcKDumLJ5dS: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,751 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lanle
+2024-12-21 15:52:33,752 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5QAllNyniv9TSR1yNjraxZ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,752 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lauria INC
+2024-12-21 15:52:33,752 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2KrXlzpSX4wWvJ2555FWLv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,752 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Le Castle Vania, Addison
+2024-12-21 15:52:33,752 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3aA6Slo2nccYU7peRQGa8D: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,752 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LeechesHell
+2024-12-21 15:52:33,752 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2aodzfnGspj2pSEq7Au1Q0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,753 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Legendcast
+2024-12-21 15:52:33,753 - PlexMusicMatcher - ERROR - Error fetching artist by ID 42OACLDCo3bqxfYCG1Hu3B: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,753 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Leisureville
+2024-12-21 15:52:33,753 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1264capaf0mZntpqmhyXA9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,753 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lhokanda
+2024-12-21 15:52:33,753 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6hfBViif35NkILVh7q8SD5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,755 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Like Nastya
+2024-12-21 15:52:33,755 - PlexMusicMatcher - ERROR - Error fetching artist by ID 16a7hxIUgVVxYQWAPaY5jt: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,755 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lil'fiercesavage
+2024-12-21 15:52:33,755 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3mKJdXTKRUXdNj8f8GrsLz: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,756 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LILAAX
+2024-12-21 15:52:33,756 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4apOgugDMZC8ReULivKJQ7: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,756 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LilErik
+2024-12-21 15:52:33,756 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4sYXiuIBZycMWz6ViZPPCd: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,756 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Little Ashes
+2024-12-21 15:52:33,757 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1UyzP6admqk7jIIgedlD4B: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,757 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Little Circuits
+2024-12-21 15:52:33,757 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5mFSaUUW9ZwqpWN39fmbuZ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,757 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Little smoking
+2024-12-21 15:52:33,758 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1zH6nlehuJvatlTMmKok98: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,758 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lodge Records
+2024-12-21 15:52:33,758 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5PsdrzXdwCvCN2Hz6uc5K5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,758 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lois Haas
+2024-12-21 15:52:33,758 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5QzpI1IfUWj0LWypyztOp0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,759 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lor Smoke
+2024-12-21 15:52:33,759 - PlexMusicMatcher - ERROR - Error fetching artist by ID 03Etl18cLsLbkKwgYokHgI: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,759 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Loris Gréaud
+2024-12-21 15:52:33,759 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4hAT5em3xWFwCuxSNDCKHr: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,759 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Low Heat
+2024-12-21 15:52:33,759 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Hrqjumb6WHg2aAUHJHLND: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,760 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LSDREAM, Champagne Drip
+2024-12-21 15:52:33,760 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Hrqjumb6WHg2aAUHJHLND: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,760 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LSDREAM, COM3T
+2024-12-21 15:52:33,760 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Hrqjumb6WHg2aAUHJHLND: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,760 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LSDREAM, Meredith Bull
+2024-12-21 15:52:33,760 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Hrqjumb6WHg2aAUHJHLND: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,760 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LSDREAM, Shlump
+2024-12-21 15:52:33,761 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7dhK4qWq1jEEFjXCD5z5xr: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,761 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lucid Monday
+2024-12-21 15:52:33,761 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5u2ADaPK3XtUn6yHzMjpPm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,761 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LudjixBoyz
+2024-12-21 15:52:33,761 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2jbmRtqNLORtXQWb8s9RFG: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,762 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Luisah
+2024-12-21 15:52:33,762 - PlexMusicMatcher - ERROR - Error fetching artist by ID 019kCCRgxRBeKKld9q42F6: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,762 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ly$o De Eye
+2024-12-21 15:52:33,762 - PlexMusicMatcher - ERROR - Error fetching artist by ID 66vddhU28sW74nhLR0sssV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,762 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for LYNAR
+2024-12-21 15:52:33,762 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0huGFU0XRUrnGBpgRzZ2Pr: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,763 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Lyncs
+2024-12-21 15:52:33,763 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5DsqLNucfAOaAj3yEWefJc: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,763 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Magnetic Dreams
+2024-12-21 15:52:33,763 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1kTflTBPwnPkQiRd9OnYFo: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,763 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mahachii
+2024-12-21 15:52:33,763 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0XA3hsmAg16jnJQbdMvU8D: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,764 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Maharaj Trio
+2024-12-21 15:52:33,764 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4UQUHnYmQtXKd9OTiB2yb7: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,764 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mahdi Chishty
+2024-12-21 15:52:33,764 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5hxEzg8woUGZMDQ0nlMvF8: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,764 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mairim & Marc Musica
+2024-12-21 15:52:33,764 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1wnuQffD1pXP52OTZuCCKH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,765 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mallika Chopra
+2024-12-21 15:52:33,765 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3fwKs90tcmu7JuYCVx21d2: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,765 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Manic Science
+2024-12-21 15:52:33,765 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1rqlFYJiidEvHy4rL479jB: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,765 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mar$
+2024-12-21 15:52:33,765 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0c2te8OzhhVjiqXaAku4Hx: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,766 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mark Holiday
+2024-12-21 15:52:33,766 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1Jnno40R8OpwItS707LTrz: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,766 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Marlin Ben
+2024-12-21 15:52:33,766 - PlexMusicMatcher - ERROR - Error fetching artist by ID 03hVdiz1KdQ9rhIKQoJXsE: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,766 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Marr D
+2024-12-21 15:52:33,766 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2AmHV6vxRxvHdlxSHxnHE9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,767 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Matt Lange, Glenn Morrison
+2024-12-21 15:52:33,767 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4GMAaZv8QSRAJBEgjTzfu4: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,767 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Matter and Energy
+2024-12-21 15:52:33,767 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0XOqSV1KQ8OXvfZLMNEvrW: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,767 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Max Future
+2024-12-21 15:52:33,767 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2dLnhHb2X8BeKkraC7wUTu: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,767 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for MC Martinez
+2024-12-21 15:52:33,768 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2RizqH0NElR7p9VrUE42iX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,768 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for MC RW1
+2024-12-21 15:52:33,768 - PlexMusicMatcher - ERROR - Error fetching artist by ID 13PdnMKcJONs4BQg3b0U5q: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,768 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mechagnome
+2024-12-21 15:52:33,768 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5x9iG7pyWDCNFgfKsxKZRv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,769 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mecsa Sosa
+2024-12-21 15:52:33,769 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6J0fHzJKiEnwt9FowZJtj8: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,769 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Meditation Loopable Sounds
+2024-12-21 15:52:33,769 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7FK8Hg4eKZZ4kipxWDwpV7: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,769 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mfinity
+2024-12-21 15:52:33,770 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1f4baV0F5ymn3OPmwrW7km: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,770 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mfs That Hustla
+2024-12-21 15:52:33,770 - PlexMusicMatcher - ERROR - Error fetching artist by ID 047MjyxkwVRo1UsQOV9a7X: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,770 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mi K.O.
+2024-12-21 15:52:33,770 - PlexMusicMatcher - ERROR - Error fetching artist by ID 05B8ng9XjFvTBV3jZnf4EY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,770 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Michael Kadelbach
+2024-12-21 15:52:33,771 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5tZwpQZjzr4kRSmuQOESuu: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,771 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Midnight Kitsune
+2024-12-21 15:52:33,771 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0a3SaDd8qUYVg4SI5UVHQf: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,771 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mike Forrest Flynn
+2024-12-21 15:52:33,771 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7iJNYh5D6FchEeryIG87vL: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,771 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Miky Mendozza
+2024-12-21 15:52:33,772 - PlexMusicMatcher - ERROR - Error fetching artist by ID 61XTODbHm8u4mMws36C1IG: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,772 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mila Harper
+2024-12-21 15:52:33,772 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4CUvoeDJEbe8IYAQVxEhmm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,772 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mis Recuerdos Edition
+2024-12-21 15:52:33,772 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4c3LhyIdENX8YQEz7lyoiD: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,773 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Misael Olivalti
+2024-12-21 15:52:33,773 - PlexMusicMatcher - ERROR - Error fetching artist by ID 76xn6JUR0ywyDYYxdidWF6: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,773 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Miss Malibu
+2024-12-21 15:52:33,773 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0hgN5bZElIstfeSweQ9g9u: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,773 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mitch von Monaco
+2024-12-21 15:52:33,774 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7t32gPuqOQLR0GB8vdYACk: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,774 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mod3sto
+2024-12-21 15:52:33,774 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2vZXipqSIa8MTvearpEWfg: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,774 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for MollyNa
+2024-12-21 15:52:33,775 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3EN8pUGJtYWutzf2fUxrDH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,775 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Moody Good, Leotrix
+2024-12-21 15:52:33,775 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3EN8pUGJtYWutzf2fUxrDH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,775 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Moody Good, SLANDER, KARRA
+2024-12-21 15:52:33,775 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Q3g3xC2lDdLo3a04uK3Wp: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,775 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Motifv
+2024-12-21 15:52:33,776 - PlexMusicMatcher - ERROR - Error fetching artist by ID 21WNH1tcZWVLhadXotMbBd: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,776 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mr.Edie
+2024-12-21 15:52:33,776 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3AV16ISX9uoQFOUKJNHLJ5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,776 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mulan - Cast
+2024-12-21 15:52:33,776 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1VeXFT8fPDFR7G9kTtaLAf: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,776 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mulle Beats
+2024-12-21 15:52:33,776 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1HUZTNo4O1iJz9RCwN2EMT: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,777 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Music Army VN
+2024-12-21 15:52:33,777 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0ecclsFJi56qJuVpE1hHZg: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,777 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mxverick
+2024-12-21 15:52:33,777 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5SGJUpo1V3rwKSsVdZG72Q: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,777 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for My Wondrous Dream
+2024-12-21 15:52:33,777 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0U255tsG3w2oHvLsFlV759: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,777 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for MyCliff
+2024-12-21 15:52:33,778 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4yJrGafkJqgcNXUr8aJ9Da: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,778 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Mylesxiety
+2024-12-21 15:52:33,778 - PlexMusicMatcher - ERROR - Error fetching artist by ID 34InewAqwTV9yX2PCK3y77: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,778 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Myya's Diary
+2024-12-21 15:52:33,778 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5GdKeqa2rzhk9mJ8Wk2xS4: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,778 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Natalia Labourdette
+2024-12-21 15:52:33,779 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2tWk9y3smAR3vNuC2ovMaB: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,779 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Nategawd
+2024-12-21 15:52:33,779 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4NqS7DbPFYwZmniGHCPMpm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,779 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Nature Sounds & Native American Flute for Relaxing Sleep, Massage, Yoga & Spas
+2024-12-21 15:52:33,779 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7tcREkCoRKAeiQdSD4XIIW: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,779 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for neebs.
+2024-12-21 15:52:33,780 - PlexMusicMatcher - ERROR - Error fetching artist by ID 61Z4ARbgYmgk3nsXcyazoa: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,780 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Neukrapsio
+2024-12-21 15:52:33,780 - PlexMusicMatcher - ERROR - Error fetching artist by ID 76M2Ekj8bG8W7X2nbx2CpF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,780 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for NGHTMRE, Shaquille O'Neal, Lil Jon
+2024-12-21 15:52:33,780 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2S55ohBVzxY2b0fYvhRDPx: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,781 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Nico Savaro
+2024-12-21 15:52:33,781 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5UnNkEBaSm8CcLVcIPefHv: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,781 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Nifup
+2024-12-21 15:52:33,781 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7ehZo8z3tdyacnOnZJv42I: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,781 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Nilzlit
+2024-12-21 15:52:33,781 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6QnL72psaayojSvTDQaJqY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,781 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ninezz
+2024-12-21 15:52:33,782 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7yuYSnlpsvgRXLqgPe7ZXT: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,782 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for niteloops
+2024-12-21 15:52:33,782 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5ZL7VDlC2uCuGMN7yV4H04: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,782 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for NKG
+2024-12-21 15:52:33,782 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1DoFYfnZ1zTlWU9ZGJLNuX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,782 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for No Signe
+2024-12-21 15:52:33,782 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7JPL3e4Dihj4HqwMU1RIZH: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,783 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for node: project
+2024-12-21 15:52:33,783 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3DWP0c6ES3Lr1l6zkSi7OY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,783 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Nostalgic Child
+2024-12-21 15:52:33,783 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6hT697Pr6tguEl9CV4djq9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,783 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Now & Anatma
+2024-12-21 15:52:33,783 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2akwdweMgdxjSFZDdrsKLP: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,784 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Nowak vel Nowaczyński
+2024-12-21 15:52:33,784 - PlexMusicMatcher - ERROR - Error fetching artist by ID 27T1EzyfRuqry0K9ZBQm0G: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,784 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for O.G Cloud9
+2024-12-21 15:52:33,784 - PlexMusicMatcher - ERROR - Error fetching artist by ID 21Tr1oCHEWO7kUX5SAwCCW: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,784 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Odecityfire
+2024-12-21 15:52:33,784 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5fnqXBFXnpSYgefFL3eGEj: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,785 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for OG KEMi
+2024-12-21 15:52:33,785 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1ozEQMzWQuJLNAAXRVpz83: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,785 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ogoh Precious
+2024-12-21 15:52:33,785 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5aoDBZOKRi2dzeysuaS8Jo: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,786 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ollie Oi
+2024-12-21 15:52:33,786 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6RC9lZOZqIxeg4g38SXNLn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,786 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ONE HOUSE
+2024-12-21 15:52:33,786 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0d8MxuFqqdhMDWH06sqSyM: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,786 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Onz
+2024-12-21 15:52:33,786 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3RRjbAYUzANb74qkNyT7vF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,786 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ookean
+2024-12-21 15:52:33,787 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3UrtmbZmzorF7miLMeO6Zi: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,787 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Osboyz
+2024-12-21 15:52:33,787 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7ERTOmWXRyme5WJUpXVVSl: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,787 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Oski, TYNAN
+2024-12-21 15:52:33,787 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7DS1cV49xYsy5RMQfW1hKg: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,787 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Otica
+2024-12-21 15:52:33,787 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1aZrHGcyFNnEEE79aRU4jT: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,788 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Outflux
+2024-12-21 15:52:33,788 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4pqyg42kTh4xrULdghsTGV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,788 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for P.A.V
+2024-12-21 15:52:33,788 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1FEwa1P8tRbfiWKFTrZHtD: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,788 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for PALMAIN
+2024-12-21 15:52:33,788 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4llOAdDmG96HtasQlWC6nb: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,789 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Palpal
+2024-12-21 15:52:33,789 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7IXR8plomiYLjUOJGuN7Bw: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,789 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Payin' Top Dolla
+2024-12-21 15:52:33,789 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4Bjfl0hx7nY18p9ELqGyI6: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,789 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Peace Collectors
+2024-12-21 15:52:33,790 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4u30MQIiDd9kaZ1t3z66F1: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,790 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Pharooo
+2024-12-21 15:52:33,790 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3PfZFDlYGVZVBSUKw1eEbi: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,790 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Phoebos
+2024-12-21 15:52:33,791 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5yE8mOpWjlbco6luZB04eb: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,791 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Planetopia
+2024-12-21 15:52:33,791 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0fgtHVpOPfXb07S8Jx443z: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,791 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Play1r
+2024-12-21 15:52:33,791 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1igvmr7isVoqmV87wYBUfo: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,791 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for PNOG
+2024-12-21 15:52:33,792 - PlexMusicMatcher - ERROR - Error fetching artist by ID 62duDvlRuV31hombOL4Tio: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,792 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Poly Grace
+2024-12-21 15:52:33,792 - PlexMusicMatcher - ERROR - Error fetching artist by ID 574n9X51Wd01p2zB3AD6n7: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,792 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Porff
+2024-12-21 15:52:33,792 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5H1NhATGxw3iAuktcxRqXa: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,792 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Positive Reptile
+2024-12-21 15:52:33,792 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7HNLpfOIO7pyVb1hSaLvEp: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,793 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Pr!ce
+2024-12-21 15:52:33,793 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1p61k7x0vaWWURWsPOCoj4: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,793 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Prima, Barely Royal
+2024-12-21 15:52:33,793 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7ErFzu89GfDqHLEjFA0ufx: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,793 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Prxphecy
+2024-12-21 15:52:33,793 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1Fw6IyCsJieH6NiQxSVRk0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,794 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Qing Feng Wu
+2024-12-21 15:52:33,794 - PlexMusicMatcher - ERROR - Error fetching artist by ID 78fOwRtJ5OcJpx1lBFQUaT: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,794 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Rayess Bek
+2024-12-21 15:52:33,794 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0q7oKoGqqPXpPa9j2Z4XqP: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,794 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Reliquus Music
+2024-12-21 15:52:33,795 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3ANXlm9f1EMFrzPG8xpekl: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,795 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Rent Check
+2024-12-21 15:52:33,795 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0x9bzpifUdZFBQw7R1UWPT: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,795 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for RezaDead
+2024-12-21 15:52:33,795 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1UqmCF6gvJiT8YQeGjVGOP: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,795 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Rishi Shukla
+2024-12-21 15:52:33,796 - PlexMusicMatcher - ERROR - Error fetching artist by ID 13QXT6PzMRKLjoU6bzffg5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,796 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Robot Kids Electric
+2024-12-21 15:52:33,796 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0Jb5bLoBJuoRfDg1CQBc9x: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,796 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Rollcage
+2024-12-21 15:52:33,796 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4KhfaG5hkV07LxBxqmkSrw: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,796 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ronin Halloway
+2024-12-21 15:52:33,796 - PlexMusicMatcher - ERROR - Error fetching artist by ID 53Kclwe6UidHGosb0TqL9W: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,797 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Rubycon Sunset
+2024-12-21 15:52:33,797 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7erlZkwZDiF5P7f1gXPxxD: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,797 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ruth Mountain
+2024-12-21 15:52:33,797 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1E11hcWosnHT7Ib5YgpmOM: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,797 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for S'BO Gyre
+2024-12-21 15:52:33,797 - PlexMusicMatcher - ERROR - Error fetching artist by ID 21GaaJIcozWUwcWCgMFiYi: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,797 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for s0und m1nd
+2024-12-21 15:52:33,798 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1b8kHjOKeduxbr6iQ2xl76: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,798 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Saint Parrish
+2024-12-21 15:52:33,798 - PlexMusicMatcher - ERROR - Error fetching artist by ID 48J1kuqZgr2pNtsN8BxhZu: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,798 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Salomon Isle
+2024-12-21 15:52:33,798 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7boRCR8WDzP08XvsiY3ZY8: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,799 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for San Scout
+2024-12-21 15:52:33,799 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2dtEG4CGXLLDSw8XsK6NWF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,799 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Sativa Sunrise
+2024-12-21 15:52:33,799 - PlexMusicMatcher - ERROR - Error fetching artist by ID 28ZQoYX6m7RErbKgxWP1gw: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,799 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Savtik
+2024-12-21 15:52:33,799 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5Y2WXPBoMeTGMTZ28NkcUh: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,800 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Sayandweep
+2024-12-21 15:52:33,800 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4KmF8nhPjwHgLKK5CmAvh5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,800 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Seemsles999
+2024-12-21 15:52:33,800 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0CcVvSRkpJRJMM4IeZiDBp: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,800 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Seinna
+2024-12-21 15:52:33,801 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2OqNVgWhbgGiCO4an8N5eI: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,801 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Self Tape
+2024-12-21 15:52:33,801 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0LNWMYOE0JDnvUXODWYiY9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,801 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for She Has A Cold Cold Heart
+2024-12-21 15:52:33,801 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5nTCnxJWxKprX3KRmr2VgP: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,801 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Shirakura
+2024-12-21 15:52:33,801 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6VZYIBVXg8NI8mjXTlfdDX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,802 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for shpaaaackkk
+2024-12-21 15:52:33,802 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2NGMjhqXuqLLdvot10Mij4: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,802 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Shunya Koyanagi
+2024-12-21 15:52:33,802 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7xr0MXidauDzozDFSnPLfh: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,802 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Shwilly
+2024-12-21 15:52:33,802 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1QHdUTjkuSMXuPsHzxHiCe: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,803 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for silverglass
+2024-12-21 15:52:33,803 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4qo4rhAxl5QaQkRNDiyRrV: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,803 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Simply K
+2024-12-21 15:52:33,803 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1mn69s03DfldpCFW1KlaJn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,803 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for The Singers - Minnesota Choral Artists
+2024-12-21 15:52:33,803 - PlexMusicMatcher - ERROR - Error fetching artist by ID 35Pt0DY5awBzJJgZfOXRUF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,804 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for SJXB
+2024-12-21 15:52:33,804 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2elRG1ncdGvrubFrws2U8K: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,804 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Sleeping Clouds
+2024-12-21 15:52:33,804 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0I0yR9rDxog4tZBo8lNTk9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,804 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for sleepscreen
+2024-12-21 15:52:33,804 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Gp2QkleQwNp2qCaEe8s47: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,805 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Sleepy Night Music
+2024-12-21 15:52:33,805 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7g8yGaQDBSABmOWERHddeC: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,805 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Slouzzz
+2024-12-21 15:52:33,805 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1zTum3MpIFKPgz16VvBgid: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,805 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for SNKB
+2024-12-21 15:52:33,806 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3D4vqJ7EVcfe0zF32PCCzy: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,806 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for So Frenchy So Chic
+2024-12-21 15:52:33,806 - PlexMusicMatcher - ERROR - Error fetching artist by ID 532VhOtZQ47TWSTGwbZ4kF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,806 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Sober Rob, Goldwater
+2024-12-21 15:52:33,806 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3fsqt6QGQnfuQmowwrxOVZ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,807 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Soft Tide
+2024-12-21 15:52:33,807 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0kVZOyEQcxEFHbIUTgcpiT: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,807 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for softboy ivo
+2024-12-21 15:52:33,807 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0dXSHTyNVWL1ABb57GGtLI: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,808 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for SoudCrime
+2024-12-21 15:52:33,808 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0JMq47rfGQ8Mi4mXKx9Gui: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,808 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Spectral Morning
+2024-12-21 15:52:33,808 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0PUrUntSdHxQhi8tHXMjyO: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,808 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Splixy
+2024-12-21 15:52:33,809 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3U1ZeT8HbM9QejpQJy1YsJ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,809 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for SPVCES
+2024-12-21 15:52:33,809 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3FiLC4bXGyrzdtdqDJPmZZ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,809 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for St-Saoul
+2024-12-21 15:52:33,809 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6DpWtzfwV8fcwP6fXckDVu: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,809 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Starrah & Diplo
+2024-12-21 15:52:33,810 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6CqbtbMl0AAhgkpg7nmquy: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,810 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for The State of Mudita
+2024-12-21 15:52:33,810 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3uuH2jEYv8ZArIf83io4hN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,810 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Static Garden
+2024-12-21 15:52:33,810 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1RYddBF79MPGiHjD5a0FbL: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,810 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for A Stellar
+2024-12-21 15:52:33,811 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0JXsWES2h8yg0TKw7obalI: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,811 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Stephanie Hawk
+2024-12-21 15:52:33,811 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4Zy5XNNP15YlJEUCaazDF0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,811 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Stopendor
+2024-12-21 15:52:33,811 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6xoZmYd6p6QGttryNCgEm0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,811 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for studiozada
+2024-12-21 15:52:33,811 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0mFx71HlQi2p33xUY4CJdq: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,812 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Suicidewave
+2024-12-21 15:52:33,812 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4ZXKj2dRsUpU66IrMIxU50: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,812 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Superdream
+2024-12-21 15:52:33,812 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6zDFhpdu4WUVVGTz0JSLMh: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,812 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Susie Suh & Robot Koch
+2024-12-21 15:52:33,812 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3eTy7yvRHnpPKY4hNCfYYX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,813 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for sxid
+2024-12-21 15:52:33,813 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1SfICWafk2B0pEobXALC00: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,813 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Syf of Talking Knots
+2024-12-21 15:52:33,813 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4B5oxjbZ2CClTNt8iEiC4n: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,813 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Synkro, Indigo
+2024-12-21 15:52:33,814 - PlexMusicMatcher - ERROR - Error fetching artist by ID 48yttDGs3V7POCv099HFbF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,814 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for TAKTY-E
+2024-12-21 15:52:33,814 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1qcswvBmHPCSXg1BNj4ZNq: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,814 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Tantraction
+2024-12-21 15:52:33,814 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7GYbByjB8l1ymsOfbvKZs0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,814 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Tatzstar 2 Shiny
+2024-12-21 15:52:33,815 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0e0nAJW9Y0XenGy2XPJD2n: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,815 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Tenet Audio
+2024-12-21 15:52:33,815 - PlexMusicMatcher - ERROR - Error fetching artist by ID 09BQyf74gmKlaDkWdbdbqY: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,815 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for teo glacier
+2024-12-21 15:52:33,815 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5s3krLQst8HRalF1FE2ZVh: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,815 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Tetherlight
+2024-12-21 15:52:33,816 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1kBDr6iJdbHhIdV5YaOaCF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,816 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Tfavored
+2024-12-21 15:52:33,816 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6SBp4gKJD4TU0hnORg0lsx: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,816 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Thadius X
+2024-12-21 15:52:33,816 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1z4tOiuqeYuJcaUgprICgl: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,817 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Thai Massage Music
+2024-12-21 15:52:33,817 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4RDMINCXGiYXCVGJDv0wTZ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,817 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for TheRa11n
+2024-12-21 15:52:33,817 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4NDDCk58w5mD6lMqb19SlX: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,817 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Thiago Garcia
+2024-12-21 15:52:33,817 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0pOf0CQbzWVo2rgrH9h0Rq: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,818 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Thomas Garcia, Eric Sharp
+2024-12-21 15:52:33,818 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3raJWxeFj6Nn3l6fMkHLC0: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,818 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Thornton III Jenkins
+2024-12-21 15:52:33,818 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6340hzyqmfpcSbPZLFC1Gf: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,818 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Threedust
+2024-12-21 15:52:33,819 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3luhzXDfGBkK1Ocg0WaNuC: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,819 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Tiki Taka
+2024-12-21 15:52:33,819 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4LMpwVsB0JGeBL9LjYaLCU: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,819 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Toby Timber
+2024-12-21 15:52:33,819 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6chuFWw4BmHxOc3X0cC8Ct: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,820 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Todd & Klein
+2024-12-21 15:52:33,820 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4udSYVL9DLYtvOHnNYNN5R: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,820 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Todd Beasley
+2024-12-21 15:52:33,820 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4oJsWKOJCNMfUbIpR2jk8Z: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,820 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Tora-i
+2024-12-21 15:52:33,820 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4cYZbQXwZpe4X4JjbcncvF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,821 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Toxic Hearts
+2024-12-21 15:52:33,821 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7bT9RYaN01RwtG8orAMSDw: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,821 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for TrappyWorldWide
+2024-12-21 15:52:33,821 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3GsbXWOsvLnSJXFJ6D1Eji: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,821 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Travmkind
+2024-12-21 15:52:33,821 - PlexMusicMatcher - ERROR - Error fetching artist by ID 75wdzw0Cup5mGEef1ZxLi4: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,822 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Trish Jane
+2024-12-21 15:52:33,822 - PlexMusicMatcher - ERROR - Error fetching artist by ID 61Nb8dWIfq6KbhKC8OnIFs: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,822 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Tropez
+2024-12-21 15:52:33,822 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5AsY988B8y76EUDNZLkBAF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,823 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for twyn!b
+2024-12-21 15:52:33,823 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5oiSxivTCIoOk5UlMSwzWM: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,823 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for TYNAN, G-REX
+2024-12-21 15:52:33,823 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5oiSxivTCIoOk5UlMSwzWM: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,824 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for TYNAN, KRISCHVN
+2024-12-21 15:52:33,824 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5CCn3NtjL8BHruiwywZY2T: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,824 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Udipta
+2024-12-21 15:52:33,824 - PlexMusicMatcher - ERROR - Error fetching artist by ID 57MWtuK2Td08YgvBJg2EQm: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,824 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for unvrsl frqncy
+2024-12-21 15:52:33,825 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6zbbkVqcuhzMPfNpJQBT9K: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,825 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Ursa the Chef
+2024-12-21 15:52:33,825 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7e4n5LUxu2d6lZbB7YRyxC: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,825 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for V.D.L
+2024-12-21 15:52:33,825 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3iyja6ErhSJ4NplEsdlzyE: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,825 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for VALÉ
+2024-12-21 15:52:33,826 - PlexMusicMatcher - ERROR - Error fetching artist by ID 25tdu45Y68PoBYxkpy5NWF: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,826 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for El Vendedor de Almas
+2024-12-21 15:52:33,826 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7rlE62MYMipHmWUDTEgSQz: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,826 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Veridian Club Music
+2024-12-21 15:52:33,826 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5w09UTPrMTyGZdz1aqCa6Q: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,826 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for viiolets
+2024-12-21 15:52:33,826 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2rA2dc0OMO7DaABovyVIq8: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,827 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Wardinho
+2024-12-21 15:52:33,827 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3mJ9GlkLzj8Ka7Z7EQaCMi: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,827 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Watsky, Feed The Biirds
+2024-12-21 15:52:33,827 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0nAywBTMD3QyYV59glDLfy: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,827 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Wavehealers
+2024-12-21 15:52:33,827 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3Ai9vPDuBVLSlRdeLoOaYn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,828 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for WhyBaby?
+2024-12-21 15:52:33,828 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1hqBaKU5JB9hRncbh5mjkC: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,828 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Will Butler vs The Knocks
+2024-12-21 15:52:33,828 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2rY5Nn4QMa6GnY4GQVqMRc: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,828 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Within Spaces
+2024-12-21 15:52:33,829 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6KjHFXEzGDu5EYSNT1C5sN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,829 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for WSDE
+2024-12-21 15:52:33,829 - PlexMusicMatcher - ERROR - Error fetching artist by ID 54swhNsdq85tRiDkNCQKvn: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,829 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Wyllis
+2024-12-21 15:52:33,829 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4ltzp2N9UlyqzUoC23APTB: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,829 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Xemba
+2024-12-21 15:52:33,830 - PlexMusicMatcher - ERROR - Error fetching artist by ID 5UI7y2lrDYhqcM7sdbTbQ9: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,830 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for xerLK
+2024-12-21 15:52:33,830 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0cSGT6H1nA8DfR7JmKos40: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,830 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for XR
+2024-12-21 15:52:33,830 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6ECghpNCN8TBjFLlictZSq: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,830 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for XTheDolphin
+2024-12-21 15:52:33,831 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2yNWs0JLKmE22JW4ZxAOOi: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,831 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Yarin Primak
+2024-12-21 15:52:33,831 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1xxrxGy8hBTgkRREML4yAd: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,831 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Yerik Martínez
+2024-12-21 15:52:33,831 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4vW2LbXDO5EFFeI6jx8vRf: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,831 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Yolo Gang
+2024-12-21 15:52:33,832 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0edoMxbwiiVrAXcJmTk4ml: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,832 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Yoo Woon
+2024-12-21 15:52:33,832 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2NJ8Ef2N0AYoDBiSTDXpHC: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,832 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Yorokobi
+2024-12-21 15:52:33,833 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2zhh0eGBhmQ7cK3RKsJHhJ: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,833 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Yoshual Time
+2024-12-21 15:52:33,833 - PlexMusicMatcher - ERROR - Error fetching artist by ID 4eSmFyK9qaLBUuDpFfli0X: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,833 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Yugi Boi, Otxhello, Ox The Moron
+2024-12-21 15:52:33,833 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7su6ew3HCRmlQpmkYIEsgt: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,834 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for YUNGBOY66
+2024-12-21 15:52:33,834 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6iOhLVSyUQsVyW3rk8TI6E: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,834 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Zachary Funk
+2024-12-21 15:52:33,834 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1tHpWX1vFJiLSbSYrNzkhN: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,834 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Zahra Tate
+2024-12-21 15:52:33,835 - PlexMusicMatcher - ERROR - Error fetching artist by ID 2L7RaHwfVU6ge64IJF8GO5: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,835 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ZOMBIES – Cast
+2024-12-21 15:52:33,835 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0E32DYKJfFGZZJQtcgtvEi: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,835 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ZTEFF
+2024-12-21 15:52:33,835 - PlexMusicMatcher - ERROR - Error fetching artist by ID 0pr5EVnymHbJ2uQTFqTfsI: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,836 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for Zxmrk
+2024-12-21 15:52:33,836 - PlexMusicMatcher - ERROR - Error fetching artist by ID 3EvduzMDmALc1qqhVlkq6L: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,836 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ZΩH
+2024-12-21 15:52:33,836 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1illLL1d1ODmN0NCFCR13e: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,836 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for ゆうがお
+2024-12-21 15:52:33,836 - PlexMusicMatcher - ERROR - Error fetching artist by ID 33yib68ie62dxNM9HJyzPK: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,836 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for 卡捷琳娜-凯丽
+2024-12-21 15:52:33,837 - PlexMusicMatcher - ERROR - Error fetching artist by ID 6jq5mIyUPPLQ5kYeXOs4d6: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,837 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for 吳京
+2024-12-21 15:52:33,837 - PlexMusicMatcher - ERROR - Error fetching artist by ID 7oh1tZhzckZrpM0EmFmqGK: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,837 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for 新时代轻音乐团
+2024-12-21 15:52:33,837 - PlexMusicMatcher - ERROR - Error fetching artist by ID 1ETjLmzvDzeMnmb5oRoxBS: 'SpotifyConnector' object has no attribute 'sp'
+2024-12-21 15:52:33,837 - PlexMusicMatcher - ERROR - Could not fetch Spotify data for 柒
+2024-12-21 15:52:33,845 - PlexMusicMatcher - INFO - 
+Would you like to:
+2024-12-21 15:52:33,845 - PlexMusicMatcher - INFO - 1. Review potential matches
+2024-12-21 15:52:33,845 - PlexMusicMatcher - INFO - 2. Apply updates to Plex
+2024-12-21 15:52:33,846 - PlexMusicMatcher - INFO - 3. Save results for later
+2024-12-21 15:52:33,846 - PlexMusicMatcher - INFO - 4. Exit
+2024-12-21 16:04:50,105 - PlexMusicMatcher - INFO - Exiting...
