@@ -1,5 +1,0 @@
-2024-12-21 00:20:07,590 - PlexMusicMatcher - INFO - Loading configuration...
-2024-12-21 00:20:07,591 - PlexMusicMatcher - ERROR - Configuration Error: 
-Please update the plex.token in config.json with your actual credentials.
-Current value appears to be a placeholder or empty.
-2024-12-21 00:20:07,591 - PlexMusicMatcher - INFO - Please update your configuration and try again.
