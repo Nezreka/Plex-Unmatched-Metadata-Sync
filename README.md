@@ -58,8 +58,7 @@ pip install -r requirements.txt
 ## Configuration
 ### Getting Plex Token
 1. Sign in to Plex web app
-2. Check your browser's cookies for 'X-Plex-Token'
-   - Or use the [Plex Token tool](https://github.com/Arcanemagus/plex-api-token-generator)
+2. Check your browser's cookies for 'X-Plex-Token' or view media XML URL.
 
 ### Getting Spotify Credentials
 1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
